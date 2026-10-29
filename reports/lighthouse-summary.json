@@ -1,0 +1,10 @@
+{
+  "runs": 3,
+  "median_scores": {
+    "performance": 89,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "environment": "Local Chromium headless, Lighthouse mobile simulation; scores vary by machine and hosting."
+}

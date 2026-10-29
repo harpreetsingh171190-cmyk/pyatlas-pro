@@ -1,0 +1,61 @@
+{
+  "checks": [
+    "Generated ZIP CRC integrity, pyproject parsing, source layout and executable CLI",
+    "Zero startup/offline requests; explicit PyPI/OSV scan, Python incompatibility, license metadata, finding and service failure",
+    "Custom path create, reorder, stable completed-step identity and reload persistence",
+    "Personal weighted comparison, incomplete-score handling and report export",
+    "Complete encrypted backup all sections, password failure, explicit preview and successful full restore/reload"
+  ],
+  "axe": [
+    {
+      "theme": "light",
+      "dialog": "starter",
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "dialog": "audit",
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "dialog": "complete",
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "dialog": "decision",
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "dialog": "path-manager",
+      "violations": []
+    },
+    {
+      "theme": "dark",
+      "dialog": "starter",
+      "violations": []
+    },
+    {
+      "theme": "dark",
+      "dialog": "audit",
+      "violations": []
+    },
+    {
+      "theme": "dark",
+      "dialog": "complete",
+      "violations": []
+    },
+    {
+      "theme": "dark",
+      "dialog": "decision",
+      "violations": []
+    },
+    {
+      "theme": "dark",
+      "dialog": "path-manager",
+      "violations": []
+    }
+  ]
+}

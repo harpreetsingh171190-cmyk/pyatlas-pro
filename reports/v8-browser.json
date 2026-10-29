@@ -1,0 +1,29 @@
+{
+  "checks": [
+    "Five charts with data tables, explicit empty states, architecture/workflow/backup diagrams, SVG export and one snapshot per date",
+    "Bundled FastAPI/Matplotlib images with attribution, honest illustrated fallbacks, raster upload normalization, persistence and card thumbnails",
+    "Media/history included in complete encrypted backup; offline charts/gallery; zero external requests; responsive diagrams and accessible light/dark dialogs"
+  ],
+  "axe": [
+    {
+      "theme": "light",
+      "panel": "gallery",
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "panel": "visuals",
+      "violations": []
+    },
+    {
+      "theme": "dark",
+      "panel": "gallery",
+      "violations": []
+    },
+    {
+      "theme": "dark",
+      "panel": "visuals",
+      "violations": []
+    }
+  ]
+}

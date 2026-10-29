@@ -1,0 +1,37 @@
+{
+  "checks": [
+    "PWA control, precache and offline reload; typo-tolerant search",
+    "Keyboard shortcuts, native dialogs, bulk-selection requirements and TOML drafts",
+    "Progress persistence, English-only UI (including a legacy stored preference), opt-in counters, click-only GitHub and offline cached snapshot",
+    "Nested-path offline reload, independent scope caches and root-update cache isolation",
+    "No runtime errors; responsive mobile layout; axe WCAG A/AA in English light/dark themes and new dialogs"
+  ],
+  "axe": [
+    {
+      "language": "en",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "language": "en",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "dialog": "stack",
+      "violations": []
+    },
+    {
+      "dialog": "paths",
+      "violations": []
+    },
+    {
+      "dialog": "usage",
+      "violations": []
+    },
+    {
+      "dialog": "command",
+      "violations": []
+    }
+  ]
+}
