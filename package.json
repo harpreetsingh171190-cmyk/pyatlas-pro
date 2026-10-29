@@ -1,0 +1,19 @@
+{
+  "name": "pyatlas-pro-development",
+  "version": "8.0.1",
+  "private": true,
+  "description": "Optional browser test tooling; the application needs no Node runtime",
+  "scripts": {
+    "test": "node --test tests/test_*.cjs",
+    "test:browser": "node tests/browser_smoke.cjs",
+    "test:v6": "node tests/v6_browser.cjs",
+    "audit:lighthouse": "lhci autorun",
+    "test:v7": "node tests/v7_browser.cjs",
+    "test:v8": "node tests/v8_browser.cjs"
+  },
+  "devDependencies": {
+    "@lhci/cli": "^0.15.1",
+    "axe-core": "^4.10.3",
+    "playwright": "1.64.1"
+  }
+}

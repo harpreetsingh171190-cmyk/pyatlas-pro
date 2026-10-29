@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyatlas-pro"
+version = "8.0.1"
+description = "An offline-first Python ecosystem workspace: catalogue explorer, comparison, audits, learning paths and visual insights"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT AND CC-BY-4.0 AND LicenseRef-Matplotlib"
+license-files = ["LICENSE", "LICENSE-CONTENT.md", "NOTICE.md", "pyatlas/assets/third-party-visual-licenses.txt"]
+authors = [{name = "Harpreet Singh"}]
+dependencies = []
+keywords = ["python", "ecosystem", "catalogue", "offline", "explorer"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Typing :: Typed",
+]
+
+[project.optional-dependencies]
+audit = ["packaging>=24"]
+docs = ["mkdocs>=1.6,<2"]
+dev = ["ruff>=0.6", "mypy>=1.11", "playwright>=1.51", "packaging>=24"]
+
+[project.scripts]
+pyatlas = "pyatlas.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["pyatlas*"]
+
+[tool.setuptools.package-data]
+pyatlas = ["py.typed", "data/*.json", "assets/*.html", "assets/*.css", "assets/*.js", "assets/*.png", "assets/*.webmanifest", "assets/*.txt", "assets/*.json"]
+
+[tool.ruff]
+line-length = 140
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E701", "E702", "E401"]
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+files = ["pyatlas", "tools"]

@@ -1,0 +1,20 @@
+site_name: PyAtlas Pro
+site_description: Offline-first Python ecosystem workspace
+site_dir: site-docs
+use_directory_urls: false
+nav:
+  - Home: index.md
+  - Visual guide: V8-GUIDE.md
+  - Professional tools: V7-GUIDE.md
+  - v6 guide: V6-GUIDE.md
+  - Quickstart: QUICKSTART.md
+  - Architecture: ARCHITECTURE.md
+  - Validation: VALIDATION.md
+  - Migration: MIGRATION.md
+  - Releases: RELEASES.md
+theme:
+  name: mkdocs
+  highlightjs: false
+extra_css:
+  - offline.css
+plugins: []
