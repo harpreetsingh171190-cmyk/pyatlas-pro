@@ -1,0 +1,4241 @@
+{
+  "schema_version": 1,
+  "source": "https://github.com/vinta/awesome-python",
+  "source_commit": "91e199ced625716e7e7e421fb1750206226e2bcf",
+  "snapshot_date": "2026-10-28",
+  "license": "CC-BY-4.0",
+  "entries": [
+    {
+      "id": "3ff47f2111feb184",
+      "name": "django-ai-plugins",
+      "url": "https://github.com/vintasoftware/django-ai-plugins",
+      "description": "Django backend agent skills for Django, DRF, Celery, and Django-specific code review.",
+      "category": "AI and Agents",
+      "group": "Agent Skills"
+    },
+    {
+      "id": "00637058a03cbb59",
+      "name": "scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "Agent skills for scientific research and analysis with Python libraries like scikit-learn, polars, and biopython.",
+      "category": "AI and Agents",
+      "group": "Agent Skills"
+    },
+    {
+      "id": "9ce5185467ee9ca5",
+      "name": "sentry-skills",
+      "url": "https://github.com/getsentry/skills",
+      "description": "Agent skills the Sentry team uses for code review, pull requests, and Django reviews.",
+      "category": "AI and Agents",
+      "group": "Agent Skills"
+    },
+    {
+      "id": "2e58f451cf8a9b93",
+      "name": "trailofbits-skills",
+      "url": "https://github.com/trailofbits/skills",
+      "description": "Security skills for vulnerability detection, auditing, and testing.",
+      "category": "AI and Agents",
+      "group": "Agent Skills"
+    },
+    {
+      "id": "2cffb2b7d51df0c0",
+      "name": "wshobson-agents",
+      "url": "https://github.com/wshobson/agents",
+      "description": "Plugins, agents, and skills for AI coding tools, including Python skills for testing, async, packaging, and uv.",
+      "category": "AI and Agents",
+      "group": "Agent Skills"
+    },
+    {
+      "id": "c7c9ff4772ebd64f",
+      "name": "langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "description": "A framework for building agents and LLM-powered applications.",
+      "category": "AI and Agents",
+      "group": "Orchestration"
+    },
+    {
+      "id": "36fc1eb766bb1580",
+      "name": "langgraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "description": "Low-level orchestration framework for building stateful, long-running LLM agents.",
+      "category": "AI and Agents",
+      "group": "Orchestration"
+    },
+    {
+      "id": "43baa39a44aed367",
+      "name": "pydantic-ai",
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "description": "A Python agent framework for building generative AI applications with structured schemas.",
+      "category": "AI and Agents",
+      "group": "Orchestration"
+    },
+    {
+      "id": "e0c4b35347f925f7",
+      "name": "crewai",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "description": "A framework for orchestrating role-playing autonomous AI agents for collaborative task solving.",
+      "category": "AI and Agents",
+      "group": "Orchestration"
+    },
+    {
+      "id": "9554b4b733b94ac7",
+      "name": "claude-agent-sdk",
+      "url": "https://github.com/anthropics/claude-agent-sdk-python",
+      "description": "Anthropic's Python SDK for building AI agents on Claude Code's harness — custom tools, in-process MCP servers, hooks.",
+      "category": "AI and Agents",
+      "group": "Vendor Agent SDKs"
+    },
+    {
+      "id": "51240f00e3110d50",
+      "name": "openai-agents",
+      "url": "https://github.com/openai/openai-agents-python",
+      "description": "OpenAI's framework for building and managing AI agents.",
+      "category": "AI and Agents",
+      "group": "Vendor Agent SDKs"
+    },
+    {
+      "id": "bd2eacca21a5d8ce",
+      "name": "google-adk",
+      "url": "https://github.com/google/adk-python",
+      "description": "Google's code-first toolkit for building, evaluating, and deploying AI agents.",
+      "category": "AI and Agents",
+      "group": "Vendor Agent SDKs"
+    },
+    {
+      "id": "2037edd33e93707c",
+      "name": "mcp",
+      "url": "https://github.com/modelcontextprotocol/python-sdk",
+      "description": "The official Python SDK for building Model Context Protocol servers and clients.",
+      "category": "AI and Agents",
+      "group": "Model Context Protocol"
+    },
+    {
+      "id": "e97d3220c9f849c5",
+      "name": "fastmcp",
+      "url": "https://github.com/PrefectHQ/fastmcp",
+      "description": "A high-level, Pythonic framework for building MCP servers and clients.",
+      "category": "AI and Agents",
+      "group": "Model Context Protocol"
+    },
+    {
+      "id": "8058407df5245adf",
+      "name": "hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "An adaptive personal AI assistant that grows with you.",
+      "category": "AI and Agents",
+      "group": "Personal Assistants"
+    },
+    {
+      "id": "7beb4a75e28ec83f",
+      "name": "AstrBot",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "description": "A multi-platform AI assistant that connects LLMs to chat apps like Telegram, Slack, and QQ, extensible with Python plugins.",
+      "category": "AI and Agents",
+      "group": "Personal Assistants"
+    },
+    {
+      "id": "0854754e72e8e83f",
+      "name": "dspy",
+      "url": "https://github.com/stanfordnlp/dspy",
+      "description": "A framework for programming, not prompting, language models.",
+      "category": "AI and Agents",
+      "group": "Prompt Optimization"
+    },
+    {
+      "id": "98d89b89f6b1112a",
+      "name": "instructor",
+      "url": "https://github.com/567-labs/instructor",
+      "description": "A library for extracting structured data from LLMs, powered by Pydantic.",
+      "category": "AI and Agents",
+      "group": "Data Layer"
+    },
+    {
+      "id": "63cc501b2e5b640e",
+      "name": "llama-index",
+      "url": "https://github.com/run-llama/llama_index",
+      "description": "A toolkit for building RAG pipelines and agents over your data.",
+      "category": "AI and Agents",
+      "group": "Data Layer"
+    },
+    {
+      "id": "6107f506218ede12",
+      "name": "mem0",
+      "url": "https://github.com/mem0ai/mem0",
+      "description": "An intelligent memory layer for AI agents enabling personalized interactions.",
+      "category": "AI and Agents",
+      "group": "Data Layer"
+    },
+    {
+      "id": "e0a97c11f9dc91a2",
+      "name": "openviking",
+      "url": "https://github.com/volcengine/OpenViking",
+      "description": "A context database for AI agents that unifies memory, resources, and skills.",
+      "category": "AI and Agents",
+      "group": "Data Layer"
+    },
+    {
+      "id": "80392f8c7fc22961",
+      "name": "semantica",
+      "url": "https://github.com/semantica-agi/semantica",
+      "description": "A graph-native context and knowledge layer for AI agents with reasoning, provenance, and governance.",
+      "category": "AI and Agents",
+      "group": "Data Layer"
+    },
+    {
+      "id": "557849ca79136857",
+      "name": "transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "description": "The model-definition framework for pretrained models in text, computer vision, audio, video, and multimodal tasks, for inference and training.",
+      "category": "AI and Agents",
+      "group": "Pre-trained Models"
+    },
+    {
+      "id": "f546d5a33c1d55ac",
+      "name": "sentence-transformers",
+      "url": "https://github.com/huggingface/sentence-transformers",
+      "description": "Compute embeddings, run retrieval, and rerank results with pretrained and fine-tuned models.",
+      "category": "AI and Agents",
+      "group": "Pre-trained Models"
+    },
+    {
+      "id": "08a026cfe85152f0",
+      "name": "ollama",
+      "url": "https://github.com/ollama/ollama-python",
+      "description": "Python client for Ollama, which downloads and runs open-weight LLMs locally.",
+      "category": "AI and Agents",
+      "group": "Local LLM Inference"
+    },
+    {
+      "id": "5f9c8f7d5b7b59c0",
+      "name": "llama-cpp-python",
+      "url": "https://github.com/abetlen/llama-cpp-python",
+      "description": "Python bindings for llama.cpp, for running GGUF models locally.",
+      "category": "AI and Agents",
+      "group": "Local LLM Inference"
+    },
+    {
+      "id": "8ff6a30f2aafc5e9",
+      "name": "mlx-lm",
+      "url": "https://github.com/ml-explore/mlx-lm",
+      "description": "Run and fine-tune large language models on Apple Silicon with MLX.",
+      "category": "AI and Agents",
+      "group": "Local LLM Inference"
+    },
+    {
+      "id": "f713ba4161e0c1ec",
+      "name": "vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs.",
+      "category": "AI and Agents",
+      "group": "LLM Serving"
+    },
+    {
+      "id": "cb7d8fa655dd3dc7",
+      "name": "sglang",
+      "url": "https://github.com/sgl-project/sglang",
+      "description": "A high-performance serving framework for large language models and multimodal models.",
+      "category": "AI and Agents",
+      "group": "LLM Serving"
+    },
+    {
+      "id": "96f0632df857f2e4",
+      "name": "deepinfer",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "description": "DeepSeek's production inference engine for DeepSeek models, with MoE expert parallelism.",
+      "category": "AI and Agents",
+      "group": "LLM Serving"
+    },
+    {
+      "id": "1fd97d042ecc5f25",
+      "name": "diffusers",
+      "url": "https://github.com/huggingface/diffusers",
+      "description": "Pre-trained diffusion models for generating and editing images, audio, and video.",
+      "category": "AI and Agents",
+      "group": "Image and Video Generation"
+    },
+    {
+      "id": "9c8e68d1e3d8975d",
+      "name": "peft",
+      "url": "https://github.com/huggingface/peft",
+      "description": "A library for parameter-efficient fine-tuning of large pretrained models.",
+      "category": "AI and Agents",
+      "group": "Fine-tuning"
+    },
+    {
+      "id": "4282a34693017281",
+      "name": "trl",
+      "url": "https://github.com/huggingface/trl",
+      "description": "A library for post-training transformer language models with SFT, DPO, GRPO, and other trainers.",
+      "category": "AI and Agents",
+      "group": "Fine-tuning"
+    },
+    {
+      "id": "c3af0793a9cd6df5",
+      "name": "unsloth",
+      "url": "https://github.com/unslothai/unsloth",
+      "description": "Faster, lower-memory LLM fine-tuning, as a Python library or a desktop app.",
+      "category": "AI and Agents",
+      "group": "Fine-tuning"
+    },
+    {
+      "id": "e3fdc35f727e4b8f",
+      "name": "axolotl",
+      "url": "https://github.com/axolotl-ai-cloud/axolotl",
+      "description": "A framework for fine-tuning and post-training large language models.",
+      "category": "AI and Agents",
+      "group": "Fine-tuning"
+    },
+    {
+      "id": "7fda43d8f519511d",
+      "name": "faster-whisper",
+      "url": "https://github.com/SYSTRAN/faster-whisper",
+      "description": "A Whisper reimplementation on CTranslate2, up to 4 times faster than openai-whisper with less memory.",
+      "category": "AI and Agents",
+      "group": "Speech"
+    },
+    {
+      "id": "01ab7bb095845e6a",
+      "name": "openai-whisper",
+      "url": "https://github.com/openai/whisper",
+      "description": "A general-purpose automatic speech recognition model trained on 680k hours of multilingual and multitask supervised data.",
+      "category": "AI and Agents",
+      "group": "Speech"
+    },
+    {
+      "id": "9e17991ad5c2a6eb",
+      "name": "gTTS",
+      "url": "https://github.com/pndurette/gTTS",
+      "description": "Python library and CLI tool for converting text to speech using Google Translate TTS.",
+      "category": "AI and Agents",
+      "group": "Speech"
+    },
+    {
+      "id": "da92cf59365287fc",
+      "name": "funasr",
+      "url": "https://github.com/modelscope/FunASR",
+      "description": "Industrial-grade speech recognition toolkit with speaker diarization and emotion detection.",
+      "category": "AI and Agents",
+      "group": "Speech"
+    },
+    {
+      "id": "51936931c63d2b99",
+      "name": "pytorch",
+      "url": "https://github.com/pytorch/pytorch",
+      "description": "Tensors and dynamic neural networks in Python with strong GPU acceleration.",
+      "category": "Deep Learning",
+      "group": "Frameworks"
+    },
+    {
+      "id": "31b3e91d9ccd6018",
+      "name": "pytorch-lightning",
+      "url": "https://github.com/Lightning-AI/pytorch-lightning",
+      "description": "Deep learning framework to train, deploy, and ship AI products Lightning fast.",
+      "category": "Deep Learning",
+      "group": "Frameworks"
+    },
+    {
+      "id": "37cdd68ca94c89df",
+      "name": "jax",
+      "url": "https://github.com/jax-ml/jax",
+      "description": "A library for high-performance numerical computing with autodiff and JIT compilation.",
+      "category": "Deep Learning",
+      "group": "Frameworks"
+    },
+    {
+      "id": "2ceaf0f36621ddae",
+      "name": "keras",
+      "url": "https://github.com/keras-team/keras",
+      "description": "A high-level deep learning library with support for JAX, TensorFlow, and PyTorch backends.",
+      "category": "Deep Learning",
+      "group": "Frameworks"
+    },
+    {
+      "id": "9e995ebf34183fc8",
+      "name": "tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "description": "An end-to-end machine learning platform from Google.",
+      "category": "Deep Learning",
+      "group": "Frameworks"
+    },
+    {
+      "id": "b46d000ea8fe67ee",
+      "name": "gymnasium",
+      "url": "https://github.com/Farama-Foundation/Gymnasium",
+      "description": "A standard API for reinforcement learning environments with popular reference environments ([gym](https://github.com/openai/gym) successor).",
+      "category": "Deep Learning",
+      "group": "Reinforcement Learning"
+    },
+    {
+      "id": "052ea45f3ff31659",
+      "name": "stable-baselines3",
+      "url": "https://github.com/DLR-RM/stable-baselines3",
+      "description": "PyTorch implementations of Stable Baselines (deep) reinforcement learning algorithms.",
+      "category": "Deep Learning",
+      "group": "Reinforcement Learning"
+    },
+    {
+      "id": "f7edcc07e29687ab",
+      "name": "scikit-learn",
+      "url": "https://github.com/scikit-learn/scikit-learn",
+      "description": "The most popular Python library for machine learning with extensive documentation and community support.",
+      "category": "Machine Learning",
+      "group": "General"
+    },
+    {
+      "id": "f83b57649a355ac2",
+      "name": "imbalanced-learn",
+      "url": "https://github.com/scikit-learn-contrib/imbalanced-learn",
+      "description": "Resampling techniques for imbalanced datasets, compatible with scikit-learn.",
+      "category": "Machine Learning",
+      "group": "General"
+    },
+    {
+      "id": "4a0f23a98a98451a",
+      "name": "pgmpy",
+      "url": "https://github.com/pgmpy/pgmpy",
+      "description": "A Python library for causal and probabilistic reasoning with graphical models.",
+      "category": "Machine Learning",
+      "group": "General"
+    },
+    {
+      "id": "c9293cfad3762d5b",
+      "name": "feature-engine",
+      "url": "https://github.com/feature-engine/feature_engine",
+      "description": "sklearn-compatible API with the widest toolset for feature engineering and selection.",
+      "category": "Machine Learning",
+      "group": "General"
+    },
+    {
+      "id": "c5c2b9d663654c0a",
+      "name": "xgboost",
+      "url": "https://github.com/dmlc/xgboost",
+      "description": "A scalable, portable, and distributed gradient boosting library.",
+      "category": "Machine Learning",
+      "group": "Gradient Boosting"
+    },
+    {
+      "id": "8cf222c1af75955c",
+      "name": "lightgbm",
+      "url": "https://github.com/lightgbm-org/LightGBM",
+      "description": "A fast, distributed, high-performance gradient boosting framework.",
+      "category": "Machine Learning",
+      "group": "Gradient Boosting"
+    },
+    {
+      "id": "6317db80d664e2c2",
+      "name": "catboost",
+      "url": "https://github.com/catboost/catboost",
+      "description": "A fast, scalable, high-performance gradient boosting on decision trees library.",
+      "category": "Machine Learning",
+      "group": "Gradient Boosting"
+    },
+    {
+      "id": "4f774c4c27a54960",
+      "name": "prophet",
+      "url": "https://github.com/facebook/prophet",
+      "description": "A tool for producing forecasts for time series with multiple seasonality and trend changes.",
+      "category": "Machine Learning",
+      "group": "Time Series Forecasting"
+    },
+    {
+      "id": "06fdcf5bd9481962",
+      "name": "statsforecast",
+      "url": "https://github.com/Nixtla/statsforecast",
+      "description": "Fast statistical forecasting models such as ARIMA, ETS, and Theta, compiled with numba.",
+      "category": "Machine Learning",
+      "group": "Time Series Forecasting"
+    },
+    {
+      "id": "b23d1eee73bf13f2",
+      "name": "sktime",
+      "url": "https://github.com/sktime/sktime",
+      "description": "A unified scikit-learn-style framework for forecasting and other time-series learning tasks.",
+      "category": "Machine Learning",
+      "group": "Time Series Forecasting"
+    },
+    {
+      "id": "62f1e0092f2a6cec",
+      "name": "timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "description": "A pretrained foundation model from Google Research for time-series forecasting, with non-commercial default weights.",
+      "category": "Machine Learning",
+      "group": "Time Series Forecasting"
+    },
+    {
+      "id": "74d637f85faa39e8",
+      "name": "optuna",
+      "url": "https://github.com/optuna/optuna",
+      "description": "A hyperparameter optimization framework with define-by-run search spaces and pruning of unpromising trials.",
+      "category": "Machine Learning",
+      "group": "Hyperparameter Optimization"
+    },
+    {
+      "id": "cbaf8a6ef73d140f",
+      "name": "hyperopt",
+      "url": "https://github.com/hyperopt/hyperopt",
+      "description": "Distributed asynchronous hyperparameter optimization with Tree-structured Parzen Estimators.",
+      "category": "Machine Learning",
+      "group": "Hyperparameter Optimization"
+    },
+    {
+      "id": "1744919c19ef5b72",
+      "name": "nltk",
+      "url": "https://github.com/nltk/nltk",
+      "description": "A leading platform for building Python programs to work with human language data.",
+      "category": "Natural Language Processing",
+      "group": "General"
+    },
+    {
+      "id": "47242936d6f9d873",
+      "name": "spacy",
+      "url": "https://github.com/explosion/spaCy",
+      "description": "A library for industrial-strength natural language processing in Python and Cython.",
+      "category": "Natural Language Processing",
+      "group": "General"
+    },
+    {
+      "id": "413e96f40d1c6b70",
+      "name": "gensim",
+      "url": "https://github.com/piskvorky/gensim",
+      "description": "Topic Modeling for Humans.",
+      "category": "Natural Language Processing",
+      "group": "General"
+    },
+    {
+      "id": "0b4e8a77441be3b1",
+      "name": "stanza",
+      "url": "https://github.com/stanfordnlp/stanza",
+      "description": "The Stanford NLP Group's official Python library, supporting 60+ languages.",
+      "category": "Natural Language Processing",
+      "group": "General"
+    },
+    {
+      "id": "c56e45b3ea006a65",
+      "name": "jieba",
+      "url": "https://github.com/fxsjy/jieba",
+      "description": "The most popular Chinese text segmentation library.",
+      "category": "Natural Language Processing",
+      "group": "Chinese"
+    },
+    {
+      "id": "3560665c2a110cef",
+      "name": "pypinyin",
+      "url": "https://github.com/mozillazg/python-pinyin",
+      "description": "Convert Chinese hanzi (漢字) to pinyin (拼音).",
+      "category": "Natural Language Processing",
+      "group": "Chinese"
+    },
+    {
+      "id": "68ecf4ea2e7c613a",
+      "name": "OpenCC",
+      "url": "https://github.com/BYVoid/OpenCC",
+      "description": "Traditional/Simplified Chinese conversion with regional variants and phrase-level rules.",
+      "category": "Natural Language Processing",
+      "group": "Chinese"
+    },
+    {
+      "id": "0c701070de660ebb",
+      "name": "pangu.py",
+      "url": "https://github.com/vinta/pangu.py",
+      "description": "Paranoid text spacing.",
+      "category": "Natural Language Processing",
+      "group": "Chinese"
+    },
+    {
+      "id": "b559c64b6f163cfd",
+      "name": "opencv-python",
+      "url": "https://github.com/opencv/opencv-python",
+      "description": "Open Source Computer Vision Library.",
+      "category": "Computer Vision",
+      "group": "General"
+    },
+    {
+      "id": "b6304dcf03e0bf3f",
+      "name": "ultralytics",
+      "url": "https://github.com/ultralytics/ultralytics",
+      "description": "Ultralytics YOLO for object detection, segmentation, pose estimation, classification, and tracking.",
+      "category": "Computer Vision",
+      "group": "General"
+    },
+    {
+      "id": "f7c311ce2cbd716f",
+      "name": "kornia",
+      "url": "https://github.com/kornia/kornia",
+      "description": "Open-source differentiable computer vision library for PyTorch.",
+      "category": "Computer Vision",
+      "group": "General"
+    },
+    {
+      "id": "1fd1e3e89787168a",
+      "name": "fiftyone",
+      "url": "https://github.com/voxel51/fiftyone",
+      "description": "The open-source tool for building high-quality datasets and computer vision models.",
+      "category": "Computer Vision",
+      "group": "General"
+    },
+    {
+      "id": "f286c6c6494b0280",
+      "name": "pytesseract",
+      "url": "https://github.com/madmaze/pytesseract",
+      "description": "A wrapper for the [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) engine.",
+      "category": "Computer Vision",
+      "group": "OCR"
+    },
+    {
+      "id": "441758227577e7b7",
+      "name": "easyocr",
+      "url": "https://github.com/JaidedAI/EasyOCR",
+      "description": "Ready-to-use OCR with 80+ languages supported.",
+      "category": "Computer Vision",
+      "group": "OCR"
+    },
+    {
+      "id": "a8c53ce24584dc03",
+      "name": "paddleocr",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "description": "Multilingual OCR and document parsing toolkit based on PaddlePaddle.",
+      "category": "Computer Vision",
+      "group": "OCR"
+    },
+    {
+      "id": "9480f2020b6bf866",
+      "name": "annoy",
+      "url": "https://github.com/spotify/annoy",
+      "description": "Approximate Nearest Neighbors in C++/Python optimized for memory usage.",
+      "category": "Recommender Systems",
+      "group": ""
+    },
+    {
+      "id": "81854699cd4484dc",
+      "name": "implicit",
+      "url": "https://github.com/benfred/implicit",
+      "description": "A fast Python implementation of collaborative filtering for implicit datasets.",
+      "category": "Recommender Systems",
+      "group": ""
+    },
+    {
+      "id": "3ddd66f65e015c44",
+      "name": "scikit-surprise",
+      "url": "https://github.com/NicolasHug/Surprise",
+      "description": "A scikit for building and analyzing recommender systems.",
+      "category": "Recommender Systems",
+      "group": ""
+    },
+    {
+      "id": "991ce205eac4731b",
+      "name": "flask",
+      "url": "https://github.com/pallets/flask",
+      "description": "A microframework for Python.",
+      "category": "Web Frameworks",
+      "group": "Synchronous"
+    },
+    {
+      "id": "c4a7bd25c4f906ed",
+      "name": "django",
+      "url": "https://github.com/django/django",
+      "description": "A high-level web framework that encourages rapid development and clean, pragmatic design.",
+      "category": "Web Frameworks",
+      "group": "Synchronous"
+    },
+    {
+      "id": "30ba51a57454a45a",
+      "name": "bottle",
+      "url": "https://github.com/bottlepy/bottle",
+      "description": "A fast and simple micro-framework distributed as a single file with no dependencies.",
+      "category": "Web Frameworks",
+      "group": "Synchronous"
+    },
+    {
+      "id": "e42cf04ed61089b8",
+      "name": "pyramid",
+      "url": "https://github.com/Pylons/pyramid",
+      "description": "A small, fast, down-to-earth, open source Python web framework.",
+      "category": "Web Frameworks",
+      "group": "Synchronous"
+    },
+    {
+      "id": "6bcede01964a9c87",
+      "name": "fasthtml",
+      "url": "https://github.com/AnswerDotAI/fasthtml",
+      "description": "The fastest way to create an HTML app.",
+      "category": "Web Frameworks",
+      "group": "Synchronous"
+    },
+    {
+      "id": "3515461dd9d541b9",
+      "name": "starlette",
+      "url": "https://github.com/Kludex/starlette",
+      "description": "A lightweight ASGI framework and toolkit for building high-performance async services.",
+      "category": "Web Frameworks",
+      "group": "Asynchronous"
+    },
+    {
+      "id": "caaae507487a153a",
+      "name": "tornado",
+      "url": "https://github.com/tornadoweb/tornado",
+      "description": "A web framework and asynchronous networking library.",
+      "category": "Web Frameworks",
+      "group": "Asynchronous"
+    },
+    {
+      "id": "afbd08e855736cb1",
+      "name": "litestar",
+      "url": "https://github.com/litestar-org/litestar",
+      "description": "Production-ready, capable and extensible ASGI web framework.",
+      "category": "Web Frameworks",
+      "group": "Asynchronous"
+    },
+    {
+      "id": "6bcf0d0111cc6dec",
+      "name": "reflex",
+      "url": "https://github.com/reflex-dev/reflex",
+      "description": "A framework for building reactive, full-stack web applications entirely with Python.",
+      "category": "Web Frameworks",
+      "group": "Asynchronous"
+    },
+    {
+      "id": "12be86196a53757e",
+      "name": "django-rest-framework",
+      "url": "https://github.com/encode/django-rest-framework",
+      "description": "A powerful and flexible toolkit to build web APIs.",
+      "category": "Web APIs",
+      "group": "Django"
+    },
+    {
+      "id": "e7176400370ef5aa",
+      "name": "django-ninja",
+      "url": "https://github.com/vitalik/django-ninja",
+      "description": "Fast, Django REST framework based on type hints and Pydantic.",
+      "category": "Web APIs",
+      "group": "Django"
+    },
+    {
+      "id": "71b03482d179da9c",
+      "name": "strawberry-django",
+      "url": "https://github.com/strawberry-graphql/strawberry-django",
+      "description": "Strawberry GraphQL integration with Django.",
+      "category": "Web APIs",
+      "group": "Django"
+    },
+    {
+      "id": "9f73b323794ae776",
+      "name": "django-modern-rest",
+      "url": "https://github.com/wemake-services/django-modern-rest",
+      "description": "Modern REST with speed, types, async, `msgspec`, `pydantic` and other goodies.",
+      "category": "Web APIs",
+      "group": "Django"
+    },
+    {
+      "id": "6abf2857845b074c",
+      "name": "flask-restx",
+      "url": "https://github.com/python-restx/flask-restx",
+      "description": "Fully featured framework for fast, easy and documented API development with Flask.",
+      "category": "Web APIs",
+      "group": "Flask"
+    },
+    {
+      "id": "062785ac2691095c",
+      "name": "flask-smorest",
+      "url": "https://github.com/marshmallow-code/flask-smorest",
+      "description": "A Flask/Marshmallow-based REST API framework with automatic OpenAPI documentation.",
+      "category": "Web APIs",
+      "group": "Flask"
+    },
+    {
+      "id": "c938d335e73d3ab1",
+      "name": "apiflask",
+      "url": "https://github.com/apiflask/apiflask",
+      "description": "A lightweight Python web API framework based on Flask, supporting marshmallow schemas and Pydantic models.",
+      "category": "Web APIs",
+      "group": "Flask"
+    },
+    {
+      "id": "64d99f52fca69d8f",
+      "name": "fastapi",
+      "url": "https://github.com/fastapi/fastapi",
+      "description": "A modern, fast web framework for building APIs with standard Python type hints.",
+      "category": "Web APIs",
+      "group": "Framework Agnostic"
+    },
+    {
+      "id": "a296a2b4f6235c27",
+      "name": "strawberry",
+      "url": "https://github.com/strawberry-graphql/strawberry",
+      "description": "A GraphQL library that leverages Python type annotations for schema definition.",
+      "category": "Web APIs",
+      "group": "Framework Agnostic"
+    },
+    {
+      "id": "d092e8291f0a4ee4",
+      "name": "connexion",
+      "url": "https://github.com/spec-first/connexion",
+      "description": "A spec-first framework that handles requests based on your OpenAPI specification.",
+      "category": "Web APIs",
+      "group": "Framework Agnostic"
+    },
+    {
+      "id": "8b17fc513b5bad41",
+      "name": "grpcio",
+      "url": "https://github.com/grpc/grpc",
+      "description": "HTTP/2-based RPC framework with Python bindings, built by Google.",
+      "category": "Web APIs",
+      "group": "RPC"
+    },
+    {
+      "id": "0e92329724209b35",
+      "name": "uvicorn",
+      "url": "https://github.com/Kludex/uvicorn",
+      "description": "A lightning-fast ASGI server implementation.",
+      "category": "Web Servers",
+      "group": "ASGI"
+    },
+    {
+      "id": "6fc8a9e858452473",
+      "name": "granian",
+      "url": "https://github.com/emmett-framework/granian",
+      "description": "A Rust HTTP server for Python apps built on Hyper and Tokio, supporting WSGI/ASGI/RSGI.",
+      "category": "Web Servers",
+      "group": "ASGI"
+    },
+    {
+      "id": "14e2f8b68aacbadf",
+      "name": "hypercorn",
+      "url": "https://github.com/pgjones/hypercorn",
+      "description": "An ASGI and WSGI server based on Hyper libraries and inspired by Gunicorn.",
+      "category": "Web Servers",
+      "group": "ASGI"
+    },
+    {
+      "id": "afea845df144f319",
+      "name": "gunicorn",
+      "url": "https://github.com/benoitc/gunicorn",
+      "description": "A pre-fork WSGI server with a native ASGI worker, ported from Ruby's Unicorn project.",
+      "category": "Web Servers",
+      "group": "WSGI"
+    },
+    {
+      "id": "ab856864026982bf",
+      "name": "waitress",
+      "url": "https://github.com/Pylons/waitress",
+      "description": "Multi-threaded, powers Pyramid.",
+      "category": "Web Servers",
+      "group": "WSGI"
+    },
+    {
+      "id": "892ba3bb23ffcc96",
+      "name": "websockets",
+      "url": "https://github.com/python-websockets/websockets",
+      "description": "A library for building WebSocket servers and clients with a focus on correctness and simplicity.",
+      "category": "WebSocket",
+      "group": ""
+    },
+    {
+      "id": "9fe74b209209eb90",
+      "name": "channels",
+      "url": "https://github.com/django/channels",
+      "description": "Brings WebSocket, long-poll HTTP, and other async support to Django.",
+      "category": "WebSocket",
+      "group": ""
+    },
+    {
+      "id": "96c18314b0e654ea",
+      "name": "flask-socketio",
+      "url": "https://github.com/miguelgrinberg/Flask-SocketIO",
+      "description": "Socket.IO integration for Flask applications.",
+      "category": "WebSocket",
+      "group": ""
+    },
+    {
+      "id": "a50b6e51764b453f",
+      "name": "autobahn-python",
+      "url": "https://github.com/crossbario/autobahn-python",
+      "description": "WebSocket & WAMP for Python on Twisted and [asyncio](https://docs.python.org/3/library/asyncio.html).",
+      "category": "WebSocket",
+      "group": ""
+    },
+    {
+      "id": "0bbf24109d521aad",
+      "name": "jinja",
+      "url": "https://github.com/pallets/jinja",
+      "description": "A modern and designer-friendly templating language.",
+      "category": "Template Engines",
+      "group": ""
+    },
+    {
+      "id": "d768fd1a82f9d344",
+      "name": "mako",
+      "url": "https://github.com/sqlalchemy/mako",
+      "description": "Hyperfast and lightweight templating for the Python platform.",
+      "category": "Template Engines",
+      "group": ""
+    },
+    {
+      "id": "831f4e2297ae446b",
+      "name": "whitenoise",
+      "url": "https://github.com/evansd/whitenoise",
+      "description": "Simplified static file serving for WSGI apps, with compression and caching headers.",
+      "category": "Web Asset Management",
+      "group": ""
+    },
+    {
+      "id": "39e6dca0c3166026",
+      "name": "django-storages",
+      "url": "https://github.com/jschneier/django-storages",
+      "description": "A collection of custom storage back ends for Django.",
+      "category": "Web Asset Management",
+      "group": ""
+    },
+    {
+      "id": "bec3ae7be301577c",
+      "name": "django-compressor",
+      "url": "https://github.com/django-compressor/django-compressor",
+      "description": "Compresses linked and inline JavaScript or CSS into a single cached file.",
+      "category": "Web Asset Management",
+      "group": ""
+    },
+    {
+      "id": "08f25e9768db577f",
+      "name": "oauthlib",
+      "url": "https://github.com/oauthlib/oauthlib",
+      "description": "A generic and thorough implementation of the OAuth request-signing logic.",
+      "category": "Authentication",
+      "group": "OAuth"
+    },
+    {
+      "id": "fb2243be03caf8da",
+      "name": "authlib",
+      "url": "https://github.com/authlib/authlib",
+      "description": "A comprehensive library for building OAuth, OpenID Connect, and JWT/JWS/JWE/JWK/JWA.",
+      "category": "Authentication",
+      "group": "OAuth"
+    },
+    {
+      "id": "999d8fcb1882f6e7",
+      "name": "django-allauth",
+      "url": "https://github.com/pennersr/django-allauth",
+      "description": "Authentication app for Django that \"just works.\"",
+      "category": "Authentication",
+      "group": "OAuth"
+    },
+    {
+      "id": "fc2a0461993060fd",
+      "name": "django-oauth-toolkit",
+      "url": "https://github.com/django-oauth/django-oauth-toolkit",
+      "description": "An OAuth 2.0 authorization server for Django.",
+      "category": "Authentication",
+      "group": "OAuth"
+    },
+    {
+      "id": "586c3bf6440a23b5",
+      "name": "pyjwt",
+      "url": "https://github.com/jpadilla/pyjwt",
+      "description": "JSON Web Token implementation in Python.",
+      "category": "Authentication",
+      "group": "JWT"
+    },
+    {
+      "id": "913ff7fe4dd3af13",
+      "name": "django-guardian",
+      "url": "https://github.com/django-guardian/django-guardian",
+      "description": "Implementation of per-object permissions for Django.",
+      "category": "Authentication",
+      "group": "Permissions"
+    },
+    {
+      "id": "194040b00045e8ba",
+      "name": "django-rules",
+      "url": "https://github.com/dfunckt/django-rules",
+      "description": "A tiny but powerful app for object-level permissions in Django, without a database.",
+      "category": "Authentication",
+      "group": "Permissions"
+    },
+    {
+      "id": "2f53e6aa6708ca0b",
+      "name": "flask-admin",
+      "url": "https://github.com/pallets-eco/flask-admin",
+      "description": "Simple and extensible administrative interface framework for Flask.",
+      "category": "Admin Panels",
+      "group": ""
+    },
+    {
+      "id": "8f6a54630b75cbe2",
+      "name": "django-unfold",
+      "url": "https://github.com/unfoldadmin/django-unfold",
+      "description": "A modern Django admin theme for building dashboards, internal tools, and business applications.",
+      "category": "Admin Panels",
+      "group": ""
+    },
+    {
+      "id": "6a948cae3ba7748f",
+      "name": "sqladmin",
+      "url": "https://github.com/smithyhq/sqladmin",
+      "description": "An admin interface for SQLAlchemy models in FastAPI and Starlette.",
+      "category": "Admin Panels",
+      "group": ""
+    },
+    {
+      "id": "310a6429fecd41b7",
+      "name": "django-grappelli",
+      "url": "https://github.com/sehmaschine/django-grappelli",
+      "description": "A jazzy skin for the Django Admin-Interface.",
+      "category": "Admin Panels",
+      "group": ""
+    },
+    {
+      "id": "5b607b41f7f7c8e4",
+      "name": "wagtail",
+      "url": "https://github.com/wagtail/wagtail",
+      "description": "A Django content management system.",
+      "category": "CMS",
+      "group": ""
+    },
+    {
+      "id": "3b829c3c5bd9e40d",
+      "name": "django-cms",
+      "url": "https://github.com/django-cms/django-cms",
+      "description": "The easy-to-use and developer-friendly enterprise CMS powered by Django.",
+      "category": "CMS",
+      "group": ""
+    },
+    {
+      "id": "d1e01e2f27565f13",
+      "name": "odoo",
+      "url": "https://github.com/odoo/odoo",
+      "description": "A suite of open source business apps: CRM, e-commerce, accounting, inventory, and thousands of community modules.",
+      "category": "ERP",
+      "group": ""
+    },
+    {
+      "id": "c2fe8e8f6343fa3c",
+      "name": "pelican",
+      "url": "https://github.com/getpelican/pelican",
+      "description": "Static site generator that supports Markdown and reST syntax.",
+      "category": "Static Site Generators",
+      "group": ""
+    },
+    {
+      "id": "808e14d130150132",
+      "name": "nikola",
+      "url": "https://github.com/getnikola/nikola",
+      "description": "A static website and blog generator.",
+      "category": "Static Site Generators",
+      "group": ""
+    },
+    {
+      "id": "4c72541541e83ec5",
+      "name": "requests",
+      "url": "https://github.com/psf/requests",
+      "description": "HTTP Requests for Humans.",
+      "category": "HTTP Clients",
+      "group": "General"
+    },
+    {
+      "id": "4c1b473c1094072b",
+      "name": "aiohttp",
+      "url": "https://github.com/aio-libs/aiohttp",
+      "description": "Asynchronous HTTP client/server framework for asyncio and Python.",
+      "category": "HTTP Clients",
+      "group": "General"
+    },
+    {
+      "id": "542eee66169846d9",
+      "name": "httpx2",
+      "url": "https://github.com/pydantic/httpx2",
+      "description": "HTTP/1.1 and HTTP/2 client with sync and async APIs, maintained by Pydantic ([httpx](https://github.com/encode/httpx) fork).",
+      "category": "HTTP Clients",
+      "group": "General"
+    },
+    {
+      "id": "9d5139f9c56f0130",
+      "name": "urllib3",
+      "url": "https://github.com/urllib3/urllib3",
+      "description": "An HTTP library with thread-safe connection pooling, file post, and more.",
+      "category": "HTTP Clients",
+      "group": "General"
+    },
+    {
+      "id": "0f30044881f89105",
+      "name": "httpx",
+      "url": "https://github.com/encode/httpx",
+      "description": "A next-generation HTTP client for Python.",
+      "category": "HTTP Clients",
+      "group": "General"
+    },
+    {
+      "id": "248cb65e9a091c03",
+      "name": "yarl",
+      "url": "https://github.com/aio-libs/yarl",
+      "description": "Yet another URL library.",
+      "category": "HTTP Clients",
+      "group": "URL Manipulation"
+    },
+    {
+      "id": "9fe6292de0363a2e",
+      "name": "browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "description": "Make websites accessible for AI agents with easy browser automation.",
+      "category": "Web Scraping",
+      "group": "Frameworks"
+    },
+    {
+      "id": "6291ec44d84c84e6",
+      "name": "scrapy",
+      "url": "https://github.com/scrapy/scrapy",
+      "description": "A fast high-level web crawling and scraping framework.",
+      "category": "Web Scraping",
+      "group": "Frameworks"
+    },
+    {
+      "id": "81bc59f69a05dfc5",
+      "name": "crawl4ai",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "description": "An open-source, LLM-friendly web crawler that provides lightning-fast, structured data extraction specifically designed for AI agents.",
+      "category": "Web Scraping",
+      "group": "Frameworks"
+    },
+    {
+      "id": "f3bc00cb22667ec3",
+      "name": "stagehand",
+      "url": "https://github.com/browserbase/stagehand",
+      "description": "A fast and token-efficient browser automation SDK to extract data and perform self-healing actions on web pages.",
+      "category": "Web Scraping",
+      "group": "Frameworks"
+    },
+    {
+      "id": "962791ba7465648a",
+      "name": "scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "description": "An adaptive scraping framework whose selectors relocate elements after page changes, with stealth fetchers and spiders.",
+      "category": "Web Scraping",
+      "group": "Frameworks"
+    },
+    {
+      "id": "bbcd9b5edca3725e",
+      "name": "markdownify",
+      "url": "https://github.com/matthewwithanm/python-markdownify",
+      "description": "Convert HTML to Markdown, with customizable tag handling.",
+      "category": "Web Scraping",
+      "group": "Content Extraction"
+    },
+    {
+      "id": "8f298c7029483a5e",
+      "name": "feedparser",
+      "url": "https://github.com/kurtmckee/feedparser",
+      "description": "Universal feed parser.",
+      "category": "Web Scraping",
+      "group": "Content Extraction"
+    },
+    {
+      "id": "d291453886f256f1",
+      "name": "trafilatura",
+      "url": "https://github.com/adbar/trafilatura",
+      "description": "A tool for gathering text and metadata from the web, with built-in content filtering.",
+      "category": "Web Scraping",
+      "group": "Content Extraction"
+    },
+    {
+      "id": "13140ce1b1cf0355",
+      "name": "aiosmtplib",
+      "url": "https://github.com/cole/aiosmtplib",
+      "description": "An asyncio SMTP client.",
+      "category": "Email",
+      "group": ""
+    },
+    {
+      "id": "ac334e905d5752a2",
+      "name": "django-anymail",
+      "url": "https://github.com/anymail/django-anymail",
+      "description": "Django email backends and webhooks for transactional email services such as Amazon SES, Brevo, Mailgun, Postmark, and Resend.",
+      "category": "Email",
+      "group": ""
+    },
+    {
+      "id": "885be3d14ec0ffbd",
+      "name": "yagmail",
+      "url": "https://github.com/kootenpv/yagmail",
+      "description": "Yet another Gmail/SMTP client.",
+      "category": "Email",
+      "group": ""
+    },
+    {
+      "id": "e60f7893c350b340",
+      "name": "sqlalchemy",
+      "url": "https://github.com/sqlalchemy/sqlalchemy",
+      "description": "The Python SQL Toolkit and Object Relational Mapper.",
+      "category": "ORM",
+      "group": "Relational Databases"
+    },
+    {
+      "id": "83bcd7a6cc2b546b",
+      "name": "django.db.models",
+      "url": "https://github.com/django/django",
+      "description": "(part of Django) The Django [ORM](https://docs.djangoproject.com/en/stable/topics/db/models/).",
+      "category": "ORM",
+      "group": "Relational Databases"
+    },
+    {
+      "id": "7801c82d65589ed4",
+      "name": "peewee",
+      "url": "https://github.com/coleifer/peewee",
+      "description": "A small, expressive ORM.",
+      "category": "ORM",
+      "group": "Relational Databases"
+    },
+    {
+      "id": "0c82f71fe31f28f4",
+      "name": "sqlmodel",
+      "url": "https://github.com/fastapi/sqlmodel",
+      "description": "SQLModel is based on Python type annotations, and powered by Pydantic and SQLAlchemy.",
+      "category": "ORM",
+      "group": "Relational Databases"
+    },
+    {
+      "id": "58d28f4ac822be00",
+      "name": "pynamodb",
+      "url": "https://github.com/pynamodb/PynamoDB",
+      "description": "A Pythonic interface for [Amazon DynamoDB](https://aws.amazon.com/dynamodb/).",
+      "category": "ORM",
+      "group": "NoSQL Databases"
+    },
+    {
+      "id": "3d3bc83a22c9f00c",
+      "name": "mongoengine",
+      "url": "https://github.com/MongoEngine/mongoengine",
+      "description": "A Python object-document mapper for working with MongoDB.",
+      "category": "ORM",
+      "group": "NoSQL Databases"
+    },
+    {
+      "id": "b6d86e580790dd46",
+      "name": "beanie",
+      "url": "https://github.com/BeanieODM/beanie",
+      "description": "An asynchronous Python object-document mapper (ODM) for MongoDB.",
+      "category": "ORM",
+      "group": "NoSQL Databases"
+    },
+    {
+      "id": "04c897c416d75f7c",
+      "name": "django-mongodb-backend",
+      "url": "https://github.com/mongodb/django-mongodb-backend",
+      "description": "Official MongoDB database backend for Django.",
+      "category": "ORM",
+      "group": "NoSQL Databases"
+    },
+    {
+      "id": "7e6c1ac824284e6f",
+      "name": "pymysql",
+      "url": "https://github.com/PyMySQL/PyMySQL",
+      "description": "A pure-Python MySQL and MariaDB client library, based on PEP 249.",
+      "category": "Database Drivers",
+      "group": "MySQL - [awesome-mysql](https://github.com/shlomi-noach/awesome-mysql)"
+    },
+    {
+      "id": "2a2598df4c3a4358",
+      "name": "mysqlclient",
+      "url": "https://github.com/PyMySQL/mysqlclient",
+      "description": "MySQL and MariaDB connector ([MySQLdb1](https://github.com/farcepest/MySQLdb1) fork).",
+      "category": "Database Drivers",
+      "group": "MySQL - [awesome-mysql](https://github.com/shlomi-noach/awesome-mysql)"
+    },
+    {
+      "id": "304940e5ddec4795",
+      "name": "psycopg",
+      "url": "https://github.com/psycopg/psycopg",
+      "description": "A PostgreSQL adapter for Python, the successor to psycopg2.",
+      "category": "Database Drivers",
+      "group": "PostgreSQL - [awesome-postgres](https://github.com/dhamaniasad/awesome-postgres)"
+    },
+    {
+      "id": "2f94c84b64493513",
+      "name": "asyncpg",
+      "url": "https://github.com/MagicStack/asyncpg",
+      "description": "A fast PostgreSQL database client library for Python/asyncio.",
+      "category": "Database Drivers",
+      "group": "PostgreSQL - [awesome-postgres](https://github.com/dhamaniasad/awesome-postgres)"
+    },
+    {
+      "id": "60b9bd1b9b7f5f64",
+      "name": "pgvector",
+      "url": "https://github.com/pgvector/pgvector-python",
+      "description": "pgvector support for Python, adding vector types and similarity search to psycopg, asyncpg, SQLAlchemy, and Django.",
+      "category": "Database Drivers",
+      "group": "PostgreSQL - [awesome-postgres](https://github.com/dhamaniasad/awesome-postgres)"
+    },
+    {
+      "id": "f99817bb6a487f60",
+      "name": "sqlite3",
+      "url": "https://docs.python.org/3/library/sqlite3.html",
+      "description": "(Python standard library) SQLite interface compliant with DB-API 2.0.",
+      "category": "Database Drivers",
+      "group": "SQLite - [awesome-sqlite](https://github.com/planetopendata/awesome-sqlite)"
+    },
+    {
+      "id": "83684708922178b9",
+      "name": "apsw",
+      "url": "https://github.com/rogerbinns/apsw",
+      "description": "Another Python SQLite Wrapper, exposing the complete SQLite C API.",
+      "category": "Database Drivers",
+      "group": "SQLite - [awesome-sqlite](https://github.com/planetopendata/awesome-sqlite)"
+    },
+    {
+      "id": "5bce449f1c26f373",
+      "name": "sqlite-utils",
+      "url": "https://github.com/simonw/sqlite-utils",
+      "description": "Python CLI utility and library for manipulating SQLite databases.",
+      "category": "Database Drivers",
+      "group": "SQLite - [awesome-sqlite](https://github.com/planetopendata/awesome-sqlite)"
+    },
+    {
+      "id": "678ed005f25f9c99",
+      "name": "clickhouse-connect",
+      "url": "https://github.com/ClickHouse/clickhouse-connect",
+      "description": "The official ClickHouse client, with SQLAlchemy and Superset connectors.",
+      "category": "Database Drivers",
+      "group": "ClickHouse"
+    },
+    {
+      "id": "0d3324e477b63582",
+      "name": "clickhouse-driver",
+      "url": "https://github.com/mymarilyn/clickhouse-driver",
+      "description": "Python driver with native interface for ClickHouse.",
+      "category": "Database Drivers",
+      "group": "ClickHouse"
+    },
+    {
+      "id": "e4966570fc46d662",
+      "name": "pyodbc",
+      "url": "https://github.com/mkleehammer/pyodbc",
+      "description": "An ODBC bridge for connecting to SQL Server and any other ODBC-accessible database.",
+      "category": "Database Drivers",
+      "group": "Other Relational Databases"
+    },
+    {
+      "id": "a2ff7ea0254f7ee4",
+      "name": "oracledb",
+      "url": "https://github.com/oracle/python-oracledb",
+      "description": "The official Python driver for Oracle Database, successor to cx_Oracle.",
+      "category": "Database Drivers",
+      "group": "Other Relational Databases"
+    },
+    {
+      "id": "66f105a5ba153a79",
+      "name": "mssql-python",
+      "url": "https://github.com/microsoft/mssql-python",
+      "description": "Official Microsoft driver for SQL Server and Azure SQL, built on ODBC for high performance.",
+      "category": "Database Drivers",
+      "group": "Other Relational Databases"
+    },
+    {
+      "id": "3587e4f450348d34",
+      "name": "redis",
+      "url": "https://github.com/redis/redis-py",
+      "description": "The Python client for Redis.",
+      "category": "Database Drivers",
+      "group": "NoSQL Databases"
+    },
+    {
+      "id": "a1c3ede009e75812",
+      "name": "pymongo",
+      "url": "https://github.com/mongodb/mongo-python-driver",
+      "description": "The official Python client for MongoDB.",
+      "category": "Database Drivers",
+      "group": "NoSQL Databases"
+    },
+    {
+      "id": "bc413c5220c8d60b",
+      "name": "cassandra-driver",
+      "url": "https://github.com/apache/cassandra-python-driver",
+      "description": "The Python driver for Apache Cassandra.",
+      "category": "Database Drivers",
+      "group": "NoSQL Databases"
+    },
+    {
+      "id": "564590b4bb0afd2d",
+      "name": "duckdb",
+      "url": "https://github.com/duckdb/duckdb",
+      "description": "An in-process SQL OLAP database management system, optimized for analytics and fast queries, similar to SQLite but for analytical workloads.",
+      "category": "Database",
+      "group": "Analytical"
+    },
+    {
+      "id": "6ae1c866b4966874",
+      "name": "chdb",
+      "url": "https://github.com/chdb-io/chdb",
+      "description": "In-process OLAP SQL engine with the full ClickHouse dialect, zero-copy pandas/Arrow interop, and federation to remote ClickHouse clusters via `remoteSecure()`.",
+      "category": "Database",
+      "group": "Analytical"
+    },
+    {
+      "id": "f6b9b50afb3a3a39",
+      "name": "lancedb",
+      "url": "https://github.com/lancedb/lancedb",
+      "description": "A developer-friendly embedded retrieval database for multimodal AI.",
+      "category": "Database",
+      "group": "Vector"
+    },
+    {
+      "id": "dddce831a47e08e8",
+      "name": "chromadb",
+      "url": "https://github.com/chroma-core/chroma",
+      "description": "An open-source embedding database for building AI applications with semantic search.",
+      "category": "Database",
+      "group": "Vector"
+    },
+    {
+      "id": "dd3845bc20a32b25",
+      "name": "zvec",
+      "url": "https://github.com/alibaba/zvec",
+      "description": "A lightweight, in-process vector database that embeds directly into applications.",
+      "category": "Database",
+      "group": "Vector"
+    },
+    {
+      "id": "80465dc9e2117f38",
+      "name": "tinydb",
+      "url": "https://github.com/msiemens/tinydb",
+      "description": "A tiny, document-oriented database.",
+      "category": "Database",
+      "group": "Key-Value & Document"
+    },
+    {
+      "id": "330439f421324103",
+      "name": "cachetools",
+      "url": "https://github.com/tkem/cachetools",
+      "description": "Extensible memoizing collections and decorators.",
+      "category": "Caching",
+      "group": "General"
+    },
+    {
+      "id": "5bb7bf2507e93e9b",
+      "name": "diskcache",
+      "url": "https://github.com/grantjenks/python-diskcache",
+      "description": "SQLite and file-backed cache backend, compatible with Django.",
+      "category": "Caching",
+      "group": "General"
+    },
+    {
+      "id": "e36d0c81b8a6c238",
+      "name": "dogpile.cache",
+      "url": "https://github.com/sqlalchemy/dogpile.cache",
+      "description": "A caching API for Redis, Memcached, and others, with coordinated value regeneration.",
+      "category": "Caching",
+      "group": "General"
+    },
+    {
+      "id": "90f441e1298eaaaa",
+      "name": "hishel",
+      "url": "https://github.com/karpetrosyan/hishel",
+      "description": "RFC 9111-compliant HTTP caching for clients like httpx and requests and servers like FastAPI, with sync and async support.",
+      "category": "Caching",
+      "group": "HTTP Responses"
+    },
+    {
+      "id": "bab65e994785bd6f",
+      "name": "django-redis",
+      "url": "https://github.com/jazzband/django-redis",
+      "description": "Full-featured Redis cache backend for Django.",
+      "category": "Caching",
+      "group": "Django"
+    },
+    {
+      "id": "f1591891902fcc08",
+      "name": "django-cacheops",
+      "url": "https://github.com/Suor/django-cacheops",
+      "description": "A slick ORM cache with automatic granular event-driven invalidation.",
+      "category": "Caching",
+      "group": "Django"
+    },
+    {
+      "id": "041577675b8195ee",
+      "name": "opensearch-py",
+      "url": "https://github.com/opensearch-project/opensearch-py",
+      "description": "The official low-level Python client for [OpenSearch](https://opensearch.org/).",
+      "category": "Search",
+      "group": "Full-Text Search"
+    },
+    {
+      "id": "c97cc8cb80419614",
+      "name": "elasticsearch",
+      "url": "https://github.com/elastic/elasticsearch-py",
+      "description": "The official low-level Python client for [Elasticsearch](https://www.elastic.co/elasticsearch).",
+      "category": "Search",
+      "group": "Full-Text Search"
+    },
+    {
+      "id": "4aebc3bf7a72b224",
+      "name": "meilisearch",
+      "url": "https://github.com/meilisearch/meilisearch-python",
+      "description": "The official Python client for the [Meilisearch](https://www.meilisearch.com/) search engine.",
+      "category": "Search",
+      "group": "Full-Text Search"
+    },
+    {
+      "id": "1cd6347b01c96f91",
+      "name": "django-haystack",
+      "url": "https://github.com/django-haystack/django-haystack",
+      "description": "Modular search for Django.",
+      "category": "Search",
+      "group": "Full-Text Search"
+    },
+    {
+      "id": "67908eb3d449d7c3",
+      "name": "faiss-cpu",
+      "url": "https://github.com/facebookresearch/faiss",
+      "description": "A library for efficient similarity search and clustering of dense vectors.",
+      "category": "Search",
+      "group": "Vector Search"
+    },
+    {
+      "id": "5559a72105e8cde0",
+      "name": "msgpack",
+      "url": "https://github.com/msgpack/msgpack-python",
+      "description": "MessagePack serializer implementation for Python.",
+      "category": "Serialization",
+      "group": "Data Formats"
+    },
+    {
+      "id": "d16624af25234993",
+      "name": "orjson",
+      "url": "https://github.com/ijl/orjson",
+      "description": "Fast, correct JSON library.",
+      "category": "Serialization",
+      "group": "Data Formats"
+    },
+    {
+      "id": "6447db7943bf8742",
+      "name": "marshmallow",
+      "url": "https://github.com/marshmallow-code/marshmallow",
+      "description": "A lightweight library for converting complex objects to and from simple Python datatypes.",
+      "category": "Serialization",
+      "group": "Data Formats"
+    },
+    {
+      "id": "3b02d89d4e5c0830",
+      "name": "msgspec",
+      "url": "https://github.com/msgspec/msgspec",
+      "description": "A fast serialization and validation library supporting JSON, MessagePack, YAML, and TOML.",
+      "category": "Serialization",
+      "group": "Data Formats"
+    },
+    {
+      "id": "bea4af47de2beb04",
+      "name": "cloudpickle",
+      "url": "https://github.com/cloudpipe/cloudpickle",
+      "description": "Extends pickle to functions, lambdas, and interactively defined classes, for shipping code to remote workers.",
+      "category": "Serialization",
+      "group": "Object Pickling"
+    },
+    {
+      "id": "847faf8e24b867e0",
+      "name": "dill",
+      "url": "https://github.com/uqfoundation/dill",
+      "description": "Extends pickle to serialize almost any object, including closures and interpreter sessions.",
+      "category": "Serialization",
+      "group": "Object Pickling"
+    },
+    {
+      "id": "452954a2f7586734",
+      "name": "pandas",
+      "url": "https://github.com/pandas-dev/pandas",
+      "description": "A library providing high-performance, easy-to-use data structures and data analysis tools.",
+      "category": "Data Analysis",
+      "group": ""
+    },
+    {
+      "id": "32eeb57b3581374b",
+      "name": "polars",
+      "url": "https://github.com/pola-rs/polars",
+      "description": "A fast DataFrame library implemented in Rust with a Python API.",
+      "category": "Data Analysis",
+      "group": ""
+    },
+    {
+      "id": "2d5fab78ecf165cf",
+      "name": "ibis-framework",
+      "url": "https://github.com/ibis-project/ibis",
+      "description": "A portable Python dataframe library with a single API for 20+ backends.",
+      "category": "Data Analysis",
+      "group": ""
+    },
+    {
+      "id": "09ee069c3d221a5b",
+      "name": "awswrangler",
+      "url": "https://github.com/aws/aws-sdk-pandas",
+      "description": "Pandas integration with AWS services like Athena, Glue, Redshift, S3, and DynamoDB.",
+      "category": "Data Ingestion / ETL",
+      "group": "General"
+    },
+    {
+      "id": "0881098860eb288d",
+      "name": "dlt",
+      "url": "https://github.com/dlt-hub/dlt",
+      "description": "A Python library for building data pipelines with automatic schema inference, incremental loading, and support for multiple sources and destinations.",
+      "category": "Data Ingestion / ETL",
+      "group": "General"
+    },
+    {
+      "id": "2ee855ab013bdd89",
+      "name": "yfinance",
+      "url": "https://github.com/ranaroussi/yfinance",
+      "description": "Easy Pythonic way to download market and financial data from Yahoo Finance.",
+      "category": "Data Ingestion / ETL",
+      "group": "Financial Data"
+    },
+    {
+      "id": "539a6f8bad1a1de4",
+      "name": "akshare",
+      "url": "https://github.com/akfamily/akshare",
+      "description": "A financial data interface library, with data provided for academic research only.",
+      "category": "Data Ingestion / ETL",
+      "group": "Financial Data"
+    },
+    {
+      "id": "4a2a731528fd8eb3",
+      "name": "edgartools",
+      "url": "https://github.com/dgunning/edgartools",
+      "description": "Downloads SEC EDGAR filings and XBRL financial statements as structured data.",
+      "category": "Data Ingestion / ETL",
+      "group": "Financial Data"
+    },
+    {
+      "id": "d32c2dd6f8288bbc",
+      "name": "openbb",
+      "url": "https://github.com/openbq-org/OpenBB",
+      "description": "A financial data platform for analysts, quants and AI agents.",
+      "category": "Data Ingestion / ETL",
+      "group": "Financial Data"
+    },
+    {
+      "id": "a6a62277640314e1",
+      "name": "pydantic",
+      "url": "https://github.com/pydantic/pydantic",
+      "description": "Data validation using Python type hints.",
+      "category": "Data Validation",
+      "group": ""
+    },
+    {
+      "id": "aca095248721f498",
+      "name": "jsonschema",
+      "url": "https://github.com/python-jsonschema/jsonschema",
+      "description": "An implementation of [JSON Schema](https://json-schema.org/) for Python.",
+      "category": "Data Validation",
+      "group": ""
+    },
+    {
+      "id": "a23053b77062d112",
+      "name": "great-expectations",
+      "url": "https://github.com/fivetran/great_expectations",
+      "description": "A data quality framework for validating, documenting, and profiling data with declarative expectations.",
+      "category": "Data Validation",
+      "group": ""
+    },
+    {
+      "id": "150994312c46e7af",
+      "name": "pandera",
+      "url": "https://github.com/unionai-oss/pandera",
+      "description": "A data validation library for dataframes, with support for pandas, polars, PySpark, and more.",
+      "category": "Data Validation",
+      "group": ""
+    },
+    {
+      "id": "4a2b257995de11d0",
+      "name": "matplotlib",
+      "url": "https://github.com/matplotlib/matplotlib",
+      "description": "A comprehensive library for creating static, animated, and interactive visualizations.",
+      "category": "Data Visualization",
+      "group": "Plotting"
+    },
+    {
+      "id": "54acebbf766f7c40",
+      "name": "plotly",
+      "url": "https://github.com/plotly/plotly.py",
+      "description": "Interactive graphing library for Python.",
+      "category": "Data Visualization",
+      "group": "Plotting"
+    },
+    {
+      "id": "824e6a5e992afd68",
+      "name": "seaborn",
+      "url": "https://github.com/mwaskom/seaborn",
+      "description": "Statistical data visualization using Matplotlib.",
+      "category": "Data Visualization",
+      "group": "Plotting"
+    },
+    {
+      "id": "8a03e114de6cbe89",
+      "name": "altair",
+      "url": "https://github.com/vega/altair",
+      "description": "Declarative statistical visualization library for Python.",
+      "category": "Data Visualization",
+      "group": "Plotting"
+    },
+    {
+      "id": "d9776480204a1f97",
+      "name": "bokeh",
+      "url": "https://github.com/bokeh/bokeh",
+      "description": "Interactive web plotting for Python.",
+      "category": "Data Visualization",
+      "group": "Plotting"
+    },
+    {
+      "id": "edde494c88a8cbf8",
+      "name": "graphviz",
+      "url": "https://github.com/xflr6/graphviz",
+      "description": "Simple Python interface for creating and rendering Graphviz graphs.",
+      "category": "Data Visualization",
+      "group": "Specialized"
+    },
+    {
+      "id": "38749c0ff79b5272",
+      "name": "cartopy",
+      "url": "https://github.com/SciTools/cartopy",
+      "description": "A cartographic Python library with matplotlib support.",
+      "category": "Data Visualization",
+      "group": "Specialized"
+    },
+    {
+      "id": "d4173713b28f5114",
+      "name": "graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "description": "Turns code, SQL schemas, docs, papers, images, or videos into a queryable knowledge graph.",
+      "category": "Data Visualization",
+      "group": "Specialized"
+    },
+    {
+      "id": "093816fc476249f9",
+      "name": "streamlit",
+      "url": "https://github.com/streamlit/streamlit",
+      "description": "A framework which lets you build dashboards, generate reports, or create chat apps in minutes.",
+      "category": "Data Visualization",
+      "group": "Dashboards and Apps"
+    },
+    {
+      "id": "036431bb2e7ad6d2",
+      "name": "dash",
+      "url": "https://github.com/plotly/dash",
+      "description": "A framework for building data apps and dashboards in pure Python, built on Plotly.",
+      "category": "Data Visualization",
+      "group": "Dashboards and Apps"
+    },
+    {
+      "id": "cf4d33a14d45f11d",
+      "name": "gradio",
+      "url": "https://github.com/gradio-app/gradio",
+      "description": "Build and share machine learning apps, all in Python.",
+      "category": "Data Visualization",
+      "group": "Dashboards and Apps"
+    },
+    {
+      "id": "fe8c951b2ab6a0ad",
+      "name": "geopandas",
+      "url": "https://github.com/geopandas/geopandas",
+      "description": "Python tools for geographic data (GeoSeries/GeoDataFrame) built on pandas.",
+      "category": "Geolocation",
+      "group": ""
+    },
+    {
+      "id": "018582aac2b49999",
+      "name": "geopy",
+      "url": "https://github.com/geopy/geopy",
+      "description": "Python Geocoding Toolbox.",
+      "category": "Geolocation",
+      "group": ""
+    },
+    {
+      "id": "76b690f787dfaeda",
+      "name": "geojson",
+      "url": "https://github.com/jazzband/geojson",
+      "description": "Python bindings and utilities for GeoJSON.",
+      "category": "Geolocation",
+      "group": ""
+    },
+    {
+      "id": "d76376eea11e9703",
+      "name": "geodjango",
+      "url": "https://github.com/django/django",
+      "description": "(part of Django) A world-class [geographic web framework](https://docs.djangoproject.com/en/stable/ref/contrib/gis/).",
+      "category": "Geolocation",
+      "group": ""
+    },
+    {
+      "id": "8f95de5b2f4e22c1",
+      "name": "numpy",
+      "url": "https://github.com/numpy/numpy",
+      "description": "A fundamental package for scientific computing with Python.",
+      "category": "Science",
+      "group": "Core"
+    },
+    {
+      "id": "9b4717004a3a6eab",
+      "name": "scipy",
+      "url": "https://github.com/scipy/scipy",
+      "description": "Fundamental algorithms for scientific computing in Python.",
+      "category": "Science",
+      "group": "Core"
+    },
+    {
+      "id": "84bb3d9681fe7083",
+      "name": "numba",
+      "url": "https://github.com/numba/numba",
+      "description": "A NumPy-aware JIT compiler for Python, using LLVM.",
+      "category": "Science",
+      "group": "Core"
+    },
+    {
+      "id": "cb486041bcab8de9",
+      "name": "sympy",
+      "url": "https://github.com/sympy/sympy",
+      "description": "A Python library for symbolic mathematics.",
+      "category": "Science",
+      "group": "Symbolic Mathematics"
+    },
+    {
+      "id": "60cfc3ff3436ab05",
+      "name": "statsmodels",
+      "url": "https://github.com/statsmodels/statsmodels",
+      "description": "Statistical modeling and econometrics in Python.",
+      "category": "Science",
+      "group": "Statistics"
+    },
+    {
+      "id": "66a859021de00980",
+      "name": "rdkit",
+      "url": "https://github.com/rdkit/rdkit",
+      "description": "Cheminformatics and machine learning software.",
+      "category": "Science",
+      "group": "Biology and Chemistry"
+    },
+    {
+      "id": "77743cf3019c80fe",
+      "name": "biopython",
+      "url": "https://github.com/biopython/biopython",
+      "description": "Biopython is a set of freely available tools for biological computation.",
+      "category": "Science",
+      "group": "Biology and Chemistry"
+    },
+    {
+      "id": "9a580dd888eed2fe",
+      "name": "pint",
+      "url": "https://github.com/hgrecco/pint",
+      "description": "Operate and manipulate physical quantities with units and dimensional analysis.",
+      "category": "Science",
+      "group": "Physics and Engineering"
+    },
+    {
+      "id": "f9d2920548b1df11",
+      "name": "astropy",
+      "url": "https://github.com/astropy/astropy",
+      "description": "A community Python library for astronomy.",
+      "category": "Science",
+      "group": "Physics and Engineering"
+    },
+    {
+      "id": "c6c1628c8c9bc84d",
+      "name": "obspy",
+      "url": "https://github.com/obspy/obspy",
+      "description": "A Python toolbox for seismology.",
+      "category": "Science",
+      "group": "Physics and Engineering"
+    },
+    {
+      "id": "6d0d606734bd53c2",
+      "name": "pymc",
+      "url": "https://github.com/pymc-devs/pymc",
+      "description": "Probabilistic programming and Bayesian modeling in Python.",
+      "category": "Science",
+      "group": "Simulation and Modeling"
+    },
+    {
+      "id": "44f1db9188af29e6",
+      "name": "simpy",
+      "url": "https://gitlab.com/team-simpy/simpy",
+      "description": "A process-based discrete-event simulation framework.",
+      "category": "Science",
+      "group": "Simulation and Modeling"
+    },
+    {
+      "id": "0687119cb68a8220",
+      "name": "mesa",
+      "url": "https://github.com/mesa/mesa",
+      "description": "An agent-based modeling framework for building, analyzing, and visualizing complex system simulations.",
+      "category": "Science",
+      "group": "Simulation and Modeling"
+    },
+    {
+      "id": "6ad31503c7a15017",
+      "name": "networkx",
+      "url": "https://github.com/networkx/networkx",
+      "description": "High-productivity software for complex networks.",
+      "category": "Science",
+      "group": "Graphs and Networks"
+    },
+    {
+      "id": "d314c235c900c320",
+      "name": "shapely",
+      "url": "https://github.com/shapely/shapely",
+      "description": "Manipulation and analysis of geometric objects in the Cartesian plane.",
+      "category": "Science",
+      "group": "Computational Geometry"
+    },
+    {
+      "id": "e87cfe41b1982044",
+      "name": "colour-science",
+      "url": "https://github.com/colour-science/colour",
+      "description": "Implementing a comprehensive number of colour theory transformations and algorithms.",
+      "category": "Science",
+      "group": "Other"
+    },
+    {
+      "id": "990bb7776aef837b",
+      "name": "manim",
+      "url": "https://github.com/ManimCommunity/manim",
+      "description": "An animation engine for explanatory math videos.",
+      "category": "Science",
+      "group": "Other"
+    },
+    {
+      "id": "39017fab2edf4e35",
+      "name": "qiskit",
+      "url": "https://github.com/Qiskit/qiskit",
+      "description": "An IBM-backed quantum SDK for building, simulating, and running circuits on real quantum hardware.",
+      "category": "Quantum Computing",
+      "group": ""
+    },
+    {
+      "id": "67a336db40c5f679",
+      "name": "qutip",
+      "url": "https://github.com/qutip/qutip",
+      "description": "Quantum Toolbox in Python.",
+      "category": "Quantum Computing",
+      "group": ""
+    },
+    {
+      "id": "96acf18b533bd00d",
+      "name": "pennylane",
+      "url": "https://github.com/PennyLaneAI/pennylane",
+      "description": "A cross-platform library for quantum computing, quantum ML, and quantum chemistry.",
+      "category": "Quantum Computing",
+      "group": ""
+    },
+    {
+      "id": "ee8a6152a39a8468",
+      "name": "cirq",
+      "url": "https://github.com/quantumlib/Cirq",
+      "description": "A Google-developed framework focused on hardware-aware quantum circuit design for NISQ devices.",
+      "category": "Quantum Computing",
+      "group": ""
+    },
+    {
+      "id": "30bb98c1336e1671",
+      "name": "sortedcontainers",
+      "url": "https://github.com/grantjenks/python-sortedcontainers",
+      "description": "Fast and pure-Python implementation of sorted collections.",
+      "category": "Algorithms and Design Patterns",
+      "group": "Algorithms"
+    },
+    {
+      "id": "bd1bf727a1f2590e",
+      "name": "algorithms",
+      "url": "https://github.com/keon/algorithms",
+      "description": "Minimal examples of data structures and algorithms.",
+      "category": "Algorithms and Design Patterns",
+      "group": "Algorithms"
+    },
+    {
+      "id": "8bebe39a0de39395",
+      "name": "thealgorithms",
+      "url": "https://github.com/TheAlgorithms/Python",
+      "description": "All algorithms implemented in Python.",
+      "category": "Algorithms and Design Patterns",
+      "group": "Algorithms"
+    },
+    {
+      "id": "94484093920e3b51",
+      "name": "python-patterns",
+      "url": "https://github.com/faif/python-patterns",
+      "description": "A collection of design patterns and idioms in Python.",
+      "category": "Algorithms and Design Patterns",
+      "group": "Design Patterns"
+    },
+    {
+      "id": "2a89c622d15e7a7f",
+      "name": "python-statemachine",
+      "url": "https://github.com/fgmacedo/python-statemachine",
+      "description": "Expressive statecharts and finite state machines with a declarative API, in sync and async codebases.",
+      "category": "Algorithms and Design Patterns",
+      "group": "Design Patterns"
+    },
+    {
+      "id": "8d7b7e5b49cb8425",
+      "name": "ipython",
+      "url": "https://github.com/ipython/ipython",
+      "description": "A powerful interactive Python shell, and the kernel behind Jupyter notebooks.",
+      "category": "Interactive Interpreter",
+      "group": ""
+    },
+    {
+      "id": "e66c71fcf14944a2",
+      "name": "notebook",
+      "url": "https://github.com/jupyter/notebook",
+      "description": "A web-based notebook environment for interactive computing.",
+      "category": "Interactive Interpreter",
+      "group": ""
+    },
+    {
+      "id": "1119532520d6533c",
+      "name": "marimo",
+      "url": "https://github.com/marimo-team/marimo",
+      "description": "A reactive notebook for Python, stored as pure Python and runnable as a script or app.",
+      "category": "Interactive Interpreter",
+      "group": ""
+    },
+    {
+      "id": "ca9b51b9070eeaea",
+      "name": "ptpython",
+      "url": "https://github.com/prompt-toolkit/ptpython",
+      "description": "Advanced Python REPL built on top of the [python-prompt-toolkit](https://github.com/prompt-toolkit/python-prompt-toolkit).",
+      "category": "Interactive Interpreter",
+      "group": ""
+    },
+    {
+      "id": "abc8c6983f130025",
+      "name": "import-linter",
+      "url": "https://github.com/seddonym/import-linter",
+      "description": "A linter that enforces architectural constraints on imports between Python modules.",
+      "category": "Code Analysis",
+      "group": "General"
+    },
+    {
+      "id": "69569bcf2208657c",
+      "name": "vulture",
+      "url": "https://github.com/jendrikseipp/vulture",
+      "description": "A tool for finding and analyzing dead Python code.",
+      "category": "Code Analysis",
+      "group": "General"
+    },
+    {
+      "id": "d37e35c667663427",
+      "name": "complexipy",
+      "url": "https://github.com/rohaquinlop/complexipy",
+      "description": "Cognitive complexity analysis for Python code, written in Rust.",
+      "category": "Code Analysis",
+      "group": "General"
+    },
+    {
+      "id": "0e9e0433d899e341",
+      "name": "prospector",
+      "url": "https://github.com/prospector-dev/prospector",
+      "description": "A tool to analyze Python code.",
+      "category": "Code Analysis",
+      "group": "General"
+    },
+    {
+      "id": "844c8a6792681f15",
+      "name": "pre-commit",
+      "url": "https://github.com/pre-commit/pre-commit",
+      "description": "A framework for managing and maintaining multi-language pre-commit hooks.",
+      "category": "Code Analysis",
+      "group": "Git Hooks"
+    },
+    {
+      "id": "50b492ae04dbc371",
+      "name": "ruff",
+      "url": "https://github.com/astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter.",
+      "category": "Code Analysis",
+      "group": "Linters and Formatters"
+    },
+    {
+      "id": "628f2969ba9f6bb7",
+      "name": "black",
+      "url": "https://github.com/psf/black",
+      "description": "The uncompromising Python code formatter.",
+      "category": "Code Analysis",
+      "group": "Linters and Formatters"
+    },
+    {
+      "id": "fab75b3a7d7a5489",
+      "name": "isort",
+      "url": "https://github.com/PyCQA/isort",
+      "description": "A Python utility / library to sort imports.",
+      "category": "Code Analysis",
+      "group": "Linters and Formatters"
+    },
+    {
+      "id": "be3d72fabdcbcda7",
+      "name": "pylint",
+      "url": "https://github.com/pylint-dev/pylint",
+      "description": "A fully customizable source code analyzer.",
+      "category": "Code Analysis",
+      "group": "Linters and Formatters"
+    },
+    {
+      "id": "047b7e02423dc3d1",
+      "name": "flake8",
+      "url": "https://github.com/PyCQA/flake8",
+      "description": "A wrapper around `pycodestyle`, `pyflakes` and McCabe.",
+      "category": "Code Analysis",
+      "group": "Linters and Formatters"
+    },
+    {
+      "id": "25193c63ce3bbfb3",
+      "name": "bandit",
+      "url": "https://github.com/PyCQA/bandit",
+      "description": "A tool designed to find common security issues in Python code.",
+      "category": "Code Analysis",
+      "group": "Linters and Formatters"
+    },
+    {
+      "id": "d6aace1b6d47ce3b",
+      "name": "rope",
+      "url": "https://github.com/python-rope/rope",
+      "description": "Rope is a Python refactoring library.",
+      "category": "Code Analysis",
+      "group": "Refactoring"
+    },
+    {
+      "id": "03c0a20bcaddfc33",
+      "name": "ast-grep-cli",
+      "url": "https://github.com/ast-grep/ast-grep",
+      "description": "A CLI tool for structural code search, linting, and rewriting based on syntax trees.",
+      "category": "Code Analysis",
+      "group": "Refactoring"
+    },
+    {
+      "id": "a12686ff9d7de619",
+      "name": "mypy",
+      "url": "https://github.com/python/mypy",
+      "description": "A static type checker for Python.",
+      "category": "Code Analysis",
+      "group": "Type Checkers - [awesome-python-typing](https://github.com/typeddjango/awesome-python-typing)"
+    },
+    {
+      "id": "3b9af5e75d74ce7f",
+      "name": "ty",
+      "url": "https://github.com/astral-sh/ty",
+      "description": "An extremely fast Python type checker and language server.",
+      "category": "Code Analysis",
+      "group": "Type Checkers - [awesome-python-typing](https://github.com/typeddjango/awesome-python-typing)"
+    },
+    {
+      "id": "d01f0630b8514c80",
+      "name": "pyright",
+      "url": "https://github.com/microsoft/pyright",
+      "description": "Full-featured static type checker for Python from Microsoft, the engine behind Pylance.",
+      "category": "Code Analysis",
+      "group": "Type Checkers - [awesome-python-typing](https://github.com/typeddjango/awesome-python-typing)"
+    },
+    {
+      "id": "5d443adb5bdc06d5",
+      "name": "pyrefly",
+      "url": "https://github.com/facebook/pyrefly",
+      "description": "A fast type checker and language server for Python.",
+      "category": "Code Analysis",
+      "group": "Type Checkers - [awesome-python-typing](https://github.com/typeddjango/awesome-python-typing)"
+    },
+    {
+      "id": "c75c9fff3a6a23f5",
+      "name": "pytest",
+      "url": "https://github.com/pytest-dev/pytest",
+      "description": "A mature full-featured Python testing tool.",
+      "category": "Testing",
+      "group": "Frameworks"
+    },
+    {
+      "id": "6cab1b2e6eb688d1",
+      "name": "hypothesis",
+      "url": "https://github.com/HypothesisWorks/hypothesis",
+      "description": "Hypothesis is an advanced QuickCheck-style property-based testing library.",
+      "category": "Testing",
+      "group": "Frameworks"
+    },
+    {
+      "id": "e6304e8068a86938",
+      "name": "robotframework",
+      "url": "https://github.com/robotframework/robotframework",
+      "description": "A generic test automation framework.",
+      "category": "Testing",
+      "group": "Frameworks"
+    },
+    {
+      "id": "510ac334c2d75883",
+      "name": "tox",
+      "url": "https://github.com/tox-dev/tox",
+      "description": "Automatically builds and tests distributions in multiple Python versions.",
+      "category": "Testing",
+      "group": "Test Runners"
+    },
+    {
+      "id": "2d3c4236f6f9bc67",
+      "name": "nox",
+      "url": "https://github.com/wntrblm/nox",
+      "description": "Flexible test automation for Python.",
+      "category": "Testing",
+      "group": "Test Runners"
+    },
+    {
+      "id": "6a442a4bf526231d",
+      "name": "playwright-python",
+      "url": "https://github.com/microsoft/playwright-python",
+      "description": "Python version of the Playwright testing and automation library.",
+      "category": "Testing",
+      "group": "Browser Automation"
+    },
+    {
+      "id": "81223202789096a6",
+      "name": "selenium",
+      "url": "https://github.com/SeleniumHQ/selenium",
+      "description": "Python bindings for [Selenium](https://selenium.dev/) [WebDriver](https://selenium.dev/documentation/webdriver/).",
+      "category": "Testing",
+      "group": "Browser Automation"
+    },
+    {
+      "id": "4b78494bf9c987aa",
+      "name": "seleniumbase",
+      "url": "https://github.com/seleniumbase/SeleniumBase",
+      "description": "Python framework for web automation & testing, with stealth options.",
+      "category": "Testing",
+      "group": "Browser Automation"
+    },
+    {
+      "id": "3d55a490e8366928",
+      "name": "locust",
+      "url": "https://github.com/locustio/locust",
+      "description": "Scalable user load testing tool written in Python.",
+      "category": "Testing",
+      "group": "Load Testing"
+    },
+    {
+      "id": "830ac71cc3b4eeb1",
+      "name": "schemathesis",
+      "url": "https://github.com/schemathesis/schemathesis",
+      "description": "Automatic property-based testing of web APIs from OpenAPI or GraphQL schemas.",
+      "category": "Testing",
+      "group": "API Testing"
+    },
+    {
+      "id": "2c7547170dbd2cf0",
+      "name": "unittest.mock",
+      "url": "https://docs.python.org/3/library/unittest.mock.html",
+      "description": "(Python standard library) A mocking and patching library.",
+      "category": "Testing",
+      "group": "Mock"
+    },
+    {
+      "id": "7fd6752d46041807",
+      "name": "responses",
+      "url": "https://github.com/getsentry/responses",
+      "description": "A utility library for mocking out the requests Python library.",
+      "category": "Testing",
+      "group": "Mock"
+    },
+    {
+      "id": "3a956ced1e09e4e3",
+      "name": "vcrpy",
+      "url": "https://github.com/kevin1024/vcrpy",
+      "description": "Record and replay HTTP interactions in your tests.",
+      "category": "Testing",
+      "group": "Mock"
+    },
+    {
+      "id": "28051f7ab0028f59",
+      "name": "respx",
+      "url": "https://github.com/lundberg/respx",
+      "description": "Mock HTTPX with awesome request patterns and response side effects.",
+      "category": "Testing",
+      "group": "Mock"
+    },
+    {
+      "id": "c22a00d89bb76369",
+      "name": "time-machine",
+      "url": "https://github.com/adamchainz/time-machine",
+      "description": "Travel through time in your tests by mocking the current time at the C level.",
+      "category": "Testing",
+      "group": "Mock"
+    },
+    {
+      "id": "01ba9aff1ba79b63",
+      "name": "factory-boy",
+      "url": "https://github.com/FactoryBoy/factory_boy",
+      "description": "A test fixtures replacement for Python.",
+      "category": "Testing",
+      "group": "Object Factories"
+    },
+    {
+      "id": "ee5ecee124e05a58",
+      "name": "polyfactory",
+      "url": "https://github.com/litestar-org/polyfactory",
+      "description": "A mock data generation library based on type hints (continuation of `pydantic-factories`).",
+      "category": "Testing",
+      "group": "Object Factories"
+    },
+    {
+      "id": "54500f9222363f38",
+      "name": "coverage",
+      "url": "https://github.com/coveragepy/coveragepy",
+      "description": "Code coverage measurement.",
+      "category": "Testing",
+      "group": "Code Coverage"
+    },
+    {
+      "id": "7ba4a49b4041c0bd",
+      "name": "faker",
+      "url": "https://github.com/joke2k/faker",
+      "description": "A Python package that generates fake data.",
+      "category": "Testing",
+      "group": "Fake Data"
+    },
+    {
+      "id": "87b0153889bcab09",
+      "name": "mimesis",
+      "url": "https://github.com/lk-geimfari/mimesis",
+      "description": "A Python library for generating fake but realistic data in multiple languages and locales.",
+      "category": "Testing",
+      "group": "Fake Data"
+    },
+    {
+      "id": "d7a24f925a419b86",
+      "name": "ipdb",
+      "url": "https://github.com/gotcha/ipdb",
+      "description": "IPython-enabled [pdb](https://docs.python.org/3/library/pdb.html).",
+      "category": "Debugging Tools",
+      "group": "pdb-like Debugger"
+    },
+    {
+      "id": "8299004931988961",
+      "name": "pudb",
+      "url": "https://github.com/inducer/pudb",
+      "description": "A full-screen, console-based Python debugger.",
+      "category": "Debugging Tools",
+      "group": "pdb-like Debugger"
+    },
+    {
+      "id": "10ef88c47cced46c",
+      "name": "viztracer",
+      "url": "https://github.com/gaogaotiantian/viztracer",
+      "description": "A low-overhead tool that traces and visualizes Python code execution.",
+      "category": "Debugging Tools",
+      "group": "Tracing"
+    },
+    {
+      "id": "f00f876be1071712",
+      "name": "py-spy",
+      "url": "https://github.com/benfred/py-spy",
+      "description": "A sampling profiler for Python programs. Written in Rust.",
+      "category": "Debugging Tools",
+      "group": "Profiler"
+    },
+    {
+      "id": "d19e05814535c098",
+      "name": "memray",
+      "url": "https://github.com/bloomberg/memray",
+      "description": "Tracks memory allocations in Python code, native extensions, and the interpreter itself.",
+      "category": "Debugging Tools",
+      "group": "Profiler"
+    },
+    {
+      "id": "42e324ef218e3fee",
+      "name": "pyinstrument",
+      "url": "https://github.com/joerick/pyinstrument",
+      "description": "A statistical wall-clock profiler with low overhead and readable call-tree output.",
+      "category": "Debugging Tools",
+      "group": "Profiler"
+    },
+    {
+      "id": "ff9e7925e585a3ba",
+      "name": "scalene",
+      "url": "https://github.com/plasma-umass/scalene",
+      "description": "A high-performance, high-precision CPU, GPU, and memory profiler for Python.",
+      "category": "Debugging Tools",
+      "group": "Profiler"
+    },
+    {
+      "id": "f1bba1a4f298cdc0",
+      "name": "django-debug-toolbar",
+      "url": "https://github.com/django-commons/django-debug-toolbar",
+      "description": "Display various debug information for Django.",
+      "category": "Debugging Tools",
+      "group": "Others"
+    },
+    {
+      "id": "7ef400671bee525a",
+      "name": "django-silk",
+      "url": "https://github.com/jazzband/django-silk",
+      "description": "Live profiling and inspection of HTTP requests and database queries for Django.",
+      "category": "Debugging Tools",
+      "group": "Others"
+    },
+    {
+      "id": "6f65b5a66b43fee6",
+      "name": "icecream",
+      "url": "https://github.com/gruns/icecream",
+      "description": "Inspect variables, expressions, and program execution with a single, simple function call.",
+      "category": "Debugging Tools",
+      "group": "Others"
+    },
+    {
+      "id": "d74e7e2468fd6143",
+      "name": "flask-debugtoolbar",
+      "url": "https://github.com/pallets-eco/flask-debugtoolbar",
+      "description": "A port of the django-debug-toolbar to Flask.",
+      "category": "Debugging Tools",
+      "group": "Others"
+    },
+    {
+      "id": "dc149162cd104938",
+      "name": "invoke",
+      "url": "https://github.com/pyinvoke/invoke",
+      "description": "A tool for managing shell-oriented subprocesses and organizing executable Python code into CLI-invokable tasks.",
+      "category": "Build Tools",
+      "group": ""
+    },
+    {
+      "id": "8597bf3a099a68c3",
+      "name": "poethepoet",
+      "url": "https://github.com/nat-n/poethepoet",
+      "description": "A task runner that defines tasks in pyproject.toml and works with poetry or uv.",
+      "category": "Build Tools",
+      "group": ""
+    },
+    {
+      "id": "9106eb98e0b462a1",
+      "name": "scons",
+      "url": "https://github.com/SCons/scons",
+      "description": "A software construction tool.",
+      "category": "Build Tools",
+      "group": ""
+    },
+    {
+      "id": "673980b156f11aca",
+      "name": "doit",
+      "url": "https://github.com/pydoit/doit",
+      "description": "A task runner and build tool.",
+      "category": "Build Tools",
+      "group": ""
+    },
+    {
+      "id": "b95a618f0b95bb44",
+      "name": "sphinx",
+      "url": "https://github.com/sphinx-doc/sphinx",
+      "description": "Python documentation generator.",
+      "category": "Documentation",
+      "group": ""
+    },
+    {
+      "id": "c22fcea0875b715b",
+      "name": "mkdocs-material",
+      "url": "https://github.com/squidfunk/mkdocs-material",
+      "description": "A documentation framework and Material Design theme built on MkDocs.",
+      "category": "Documentation",
+      "group": ""
+    },
+    {
+      "id": "642c9526f0861f7b",
+      "name": "diagrams",
+      "url": "https://github.com/mingrammer/diagrams",
+      "description": "Diagram as Code.",
+      "category": "Documentation",
+      "group": ""
+    },
+    {
+      "id": "bd546ec49fcdef05",
+      "name": "pdoc",
+      "url": "https://github.com/mitmproxy/pdoc",
+      "description": "Auto-generates API documentation for Python projects.",
+      "category": "Documentation",
+      "group": ""
+    },
+    {
+      "id": "824ffce3d3ce1cca",
+      "name": "zensical",
+      "url": "https://github.com/zensical/zensical",
+      "description": "A modern static site generator for technical documentation.",
+      "category": "Documentation",
+      "group": ""
+    },
+    {
+      "id": "e19455f000a38e00",
+      "name": "boto3",
+      "url": "https://github.com/boto/boto3",
+      "description": "Python interface to Amazon Web Services.",
+      "category": "DevOps Tools",
+      "group": "Cloud Providers"
+    },
+    {
+      "id": "8cd24e05a1f3b430",
+      "name": "awscli",
+      "url": "https://github.com/aws/aws-cli",
+      "description": "Universal Command Line Interface for Amazon Web Services; the PyPI package is v1, in maintenance mode, while v2 ships as AWS's bundled installer.",
+      "category": "DevOps Tools",
+      "group": "Cloud Providers"
+    },
+    {
+      "id": "e53791e48eac2304",
+      "name": "azure-sdk-for-python",
+      "url": "https://github.com/Azure/azure-sdk-for-python",
+      "description": "Microsoft Azure SDK for Python, published as per-service packages.",
+      "category": "DevOps Tools",
+      "group": "Cloud Providers"
+    },
+    {
+      "id": "dc0da6d676faa00b",
+      "name": "google-cloud-python",
+      "url": "https://github.com/googleapis/google-cloud-python",
+      "description": "Google Cloud client libraries for Python, published as per-service packages.",
+      "category": "DevOps Tools",
+      "group": "Cloud Providers"
+    },
+    {
+      "id": "d5c3aff7c5119b2a",
+      "name": "ansible",
+      "url": "https://github.com/ansible/ansible",
+      "description": "A radically simple IT automation platform.",
+      "category": "DevOps Tools",
+      "group": "Configuration Management"
+    },
+    {
+      "id": "ee140d4245438b98",
+      "name": "cloud-init",
+      "url": "https://github.com/canonical/cloud-init",
+      "description": "A multi-distribution package that handles early initialization of a cloud instance.",
+      "category": "DevOps Tools",
+      "group": "Configuration Management"
+    },
+    {
+      "id": "a254bdd2b408b598",
+      "name": "pyinfra",
+      "url": "https://github.com/pyinfra-dev/pyinfra",
+      "description": "Turns Python code into shell commands and runs them on your servers.",
+      "category": "DevOps Tools",
+      "group": "Configuration Management"
+    },
+    {
+      "id": "75f8a247b3e78270",
+      "name": "salt",
+      "url": "https://github.com/saltstack/salt",
+      "description": "Infrastructure automation and management system.",
+      "category": "DevOps Tools",
+      "group": "Configuration Management"
+    },
+    {
+      "id": "d3455b3805709f42",
+      "name": "fabric",
+      "url": "https://github.com/fabric/fabric",
+      "description": "A simple, Pythonic tool for remote execution and deployment.",
+      "category": "DevOps Tools",
+      "group": "Deployment"
+    },
+    {
+      "id": "0cedce6913c41337",
+      "name": "chalice",
+      "url": "https://github.com/aws/chalice",
+      "description": "A Python serverless microframework for AWS.",
+      "category": "DevOps Tools",
+      "group": "Deployment"
+    },
+    {
+      "id": "3cd5711f6f4827f1",
+      "name": "psutil",
+      "url": "https://github.com/giampaolo/psutil",
+      "description": "A cross-platform process and system utilities module.",
+      "category": "DevOps Tools",
+      "group": "Monitoring and Processes"
+    },
+    {
+      "id": "dd02c2d67f30d57d",
+      "name": "sentry-sdk",
+      "url": "https://github.com/getsentry/sentry-python",
+      "description": "Sentry SDK for Python.",
+      "category": "DevOps Tools",
+      "group": "Monitoring and Processes"
+    },
+    {
+      "id": "ff7eed1bbfd6b2a0",
+      "name": "supervisor",
+      "url": "https://github.com/Supervisor/supervisor",
+      "description": "Supervisor process control system for UNIX.",
+      "category": "DevOps Tools",
+      "group": "Monitoring and Processes"
+    },
+    {
+      "id": "e03cb291b7149781",
+      "name": "flower",
+      "url": "https://github.com/mher/flower",
+      "description": "A real-time monitor and web admin for Celery task queues.",
+      "category": "DevOps Tools",
+      "group": "Monitoring and Processes"
+    },
+    {
+      "id": "da5f6ff6450ee587",
+      "name": "sh",
+      "url": "https://github.com/amoffat/sh",
+      "description": "A full-fledged subprocess replacement for Python.",
+      "category": "DevOps Tools",
+      "group": "Monitoring and Processes"
+    },
+    {
+      "id": "3ea0030bcdbf382d",
+      "name": "borgbackup",
+      "url": "https://github.com/borgbackup/borg",
+      "description": "A deduplicating archiver with compression and encryption.",
+      "category": "DevOps Tools",
+      "group": "Other"
+    },
+    {
+      "id": "4cd7ba752af4ac7e",
+      "name": "pyspark",
+      "url": "https://github.com/apache/spark",
+      "description": "[Apache Spark](https://spark.apache.org/) Python API.",
+      "category": "Distributed Computing",
+      "group": ""
+    },
+    {
+      "id": "86c676a720387c6f",
+      "name": "dask",
+      "url": "https://github.com/dask/dask",
+      "description": "A flexible parallel computing library for analytic computing.",
+      "category": "Distributed Computing",
+      "group": ""
+    },
+    {
+      "id": "7f1d143978051854",
+      "name": "ray",
+      "url": "https://github.com/ray-project/ray",
+      "description": "A unified framework for scaling AI and Python applications.",
+      "category": "Distributed Computing",
+      "group": ""
+    },
+    {
+      "id": "a87c1a692f82ad16",
+      "name": "joblib",
+      "url": "https://github.com/joblib/joblib",
+      "description": "Parallel computing and disk-based caching for Python functions.",
+      "category": "Distributed Computing",
+      "group": ""
+    },
+    {
+      "id": "ae470dc5f8ca4920",
+      "name": "mpi4py",
+      "url": "https://github.com/mpi4py/mpi4py",
+      "description": "Python bindings for MPI.",
+      "category": "Distributed Computing",
+      "group": ""
+    },
+    {
+      "id": "56b309f6cbcff284",
+      "name": "celery",
+      "url": "https://github.com/celery/celery",
+      "description": "An asynchronous task queue/job queue based on distributed message passing.",
+      "category": "Task Queues",
+      "group": ""
+    },
+    {
+      "id": "7ec4e7cd51ea45ce",
+      "name": "rq",
+      "url": "https://github.com/rq/rq",
+      "description": "Simple job queues for Python.",
+      "category": "Task Queues",
+      "group": ""
+    },
+    {
+      "id": "fedfac924a59a457",
+      "name": "dramatiq",
+      "url": "https://github.com/Bogdanp/dramatiq",
+      "description": "A fast and reliable background task processing library for Python 3.",
+      "category": "Task Queues",
+      "group": ""
+    },
+    {
+      "id": "cd5b57cb64382432",
+      "name": "huey",
+      "url": "https://github.com/coleifer/huey",
+      "description": "A little task queue with multi-process, multi-thread, or greenlet workers.",
+      "category": "Task Queues",
+      "group": ""
+    },
+    {
+      "id": "3a235efc3d6d7424",
+      "name": "taskiq",
+      "url": "https://github.com/taskiq-python/taskiq",
+      "description": "Distributed task queue with native asyncio support and pluggable brokers.",
+      "category": "Task Queues",
+      "group": ""
+    },
+    {
+      "id": "78fd2b89bcec6263",
+      "name": "confluent-kafka",
+      "url": "https://github.com/confluentinc/confluent-kafka-python",
+      "description": "Confluent's Python client for Apache Kafka, built on librdkafka.",
+      "category": "Messaging",
+      "group": ""
+    },
+    {
+      "id": "f47ea0fd137f85fa",
+      "name": "pika",
+      "url": "https://github.com/pika/pika",
+      "description": "Pure-Python RabbitMQ/AMQP 0-9-1 client library.",
+      "category": "Messaging",
+      "group": ""
+    },
+    {
+      "id": "f6244a7bacb92ffe",
+      "name": "paho-mqtt",
+      "url": "https://github.com/eclipse-paho/paho.mqtt.python",
+      "description": "The Eclipse Paho MQTT client for Python.",
+      "category": "Messaging",
+      "group": ""
+    },
+    {
+      "id": "e4b6b39dfbec2be1",
+      "name": "faststream",
+      "url": "https://github.com/ag2ai/faststream",
+      "description": "A framework for building async services over Kafka, RabbitMQ, NATS, MQTT, and Redis.",
+      "category": "Messaging",
+      "group": ""
+    },
+    {
+      "id": "af7d95bae33ef577",
+      "name": "apscheduler",
+      "url": "https://github.com/agronholm/apscheduler",
+      "description": "A light but powerful in-process task scheduler that lets you schedule functions.",
+      "category": "Job Schedulers",
+      "group": "Task Scheduling"
+    },
+    {
+      "id": "ccd01ed4cbdce577",
+      "name": "schedule",
+      "url": "https://github.com/dbader/schedule",
+      "description": "Python job scheduling for humans.",
+      "category": "Job Schedulers",
+      "group": "Task Scheduling"
+    },
+    {
+      "id": "5a2f475d7c246a19",
+      "name": "temporalio",
+      "url": "https://github.com/temporalio/sdk-python",
+      "description": "Temporal SDK for durable, fault-tolerant workflows that survive crashes and retries.",
+      "category": "Job Schedulers",
+      "group": "Workflow Orchestration"
+    },
+    {
+      "id": "8ac59191caabdf41",
+      "name": "dagster",
+      "url": "https://github.com/dagster-io/dagster",
+      "description": "An orchestration platform for the development, production, and observation of data assets.",
+      "category": "Job Schedulers",
+      "group": "Workflow Orchestration"
+    },
+    {
+      "id": "d7933da7dba84505",
+      "name": "apache-airflow",
+      "url": "https://github.com/apache/airflow",
+      "description": "Airflow is a platform to programmatically author, schedule and monitor workflows.",
+      "category": "Job Schedulers",
+      "group": "Workflow Orchestration"
+    },
+    {
+      "id": "c0c257e97eb39992",
+      "name": "prefect",
+      "url": "https://github.com/PrefectHQ/prefect",
+      "description": "A modern workflow orchestration framework that makes it easy to build, schedule and monitor robust data pipelines.",
+      "category": "Job Schedulers",
+      "group": "Workflow Orchestration"
+    },
+    {
+      "id": "44a4121b560db9d8",
+      "name": "logging",
+      "url": "https://docs.python.org/3/library/logging.html",
+      "description": "(Python standard library) Logging facility for Python.",
+      "category": "Logging",
+      "group": ""
+    },
+    {
+      "id": "f523ee19ba1c3a67",
+      "name": "structlog",
+      "url": "https://github.com/hynek/structlog",
+      "description": "Structured logging made easy.",
+      "category": "Logging",
+      "group": ""
+    },
+    {
+      "id": "80770927a3b93b10",
+      "name": "loguru",
+      "url": "https://github.com/Delgan/loguru",
+      "description": "A library that aims to bring enjoyable logging to Python.",
+      "category": "Logging",
+      "group": ""
+    },
+    {
+      "id": "88852c45e5f34d91",
+      "name": "logfire",
+      "url": "https://github.com/pydantic/logfire",
+      "description": "The observability platform for Python, from the makers of Pydantic.",
+      "category": "Logging",
+      "group": ""
+    },
+    {
+      "id": "040f7b7e94298afd",
+      "name": "scapy",
+      "url": "https://github.com/secdev/scapy",
+      "description": "A brilliant packet manipulation library.",
+      "category": "Network Virtualization",
+      "group": ""
+    },
+    {
+      "id": "755e36402ee7c523",
+      "name": "netmiko",
+      "url": "https://github.com/ktbyers/netmiko",
+      "description": "Multi-vendor library to simplify CLI connections to network devices.",
+      "category": "Network Virtualization",
+      "group": ""
+    },
+    {
+      "id": "94b34a3be000bff0",
+      "name": "napalm",
+      "url": "https://github.com/napalm-automation/napalm",
+      "description": "Cross-vendor API to manipulate network devices.",
+      "category": "Network Virtualization",
+      "group": ""
+    },
+    {
+      "id": "5a213c61da37ffc1",
+      "name": "argparse",
+      "url": "https://docs.python.org/3/library/argparse.html",
+      "description": "(Python standard library) Command-line option and argument parsing.",
+      "category": "CLI Development",
+      "group": "General"
+    },
+    {
+      "id": "de4f329647249e46",
+      "name": "click",
+      "url": "https://github.com/pallets/click",
+      "description": "A package for creating beautiful command-line interfaces in a composable way.",
+      "category": "CLI Development",
+      "group": "General"
+    },
+    {
+      "id": "8e911779f0726305",
+      "name": "typer",
+      "url": "https://github.com/fastapi/typer",
+      "description": "Modern CLI framework that uses Python type hints. Built on Click.",
+      "category": "CLI Development",
+      "group": "General"
+    },
+    {
+      "id": "512b39ffbf406e9a",
+      "name": "prompt_toolkit",
+      "url": "https://github.com/prompt-toolkit/python-prompt-toolkit",
+      "description": "A library for building powerful interactive command lines.",
+      "category": "CLI Development",
+      "group": "General"
+    },
+    {
+      "id": "8a06bc6dd14b0550",
+      "name": "cyclopts",
+      "url": "https://github.com/BrianPugh/cyclopts",
+      "description": "Build CLIs from type-hinted functions, with docstring-based help.",
+      "category": "CLI Development",
+      "group": "General"
+    },
+    {
+      "id": "93bcd46d05206306",
+      "name": "rich",
+      "url": "https://github.com/Textualize/rich",
+      "description": "Python library for rich text and beautiful formatting in the terminal. Also provides a great `RichHandler` log handler.",
+      "category": "CLI Development",
+      "group": "Terminal Rendering"
+    },
+    {
+      "id": "99e110c34d6af204",
+      "name": "tqdm",
+      "url": "https://github.com/tqdm/tqdm",
+      "description": "Fast, extensible progress bar for loops and CLI.",
+      "category": "CLI Development",
+      "group": "Terminal Rendering"
+    },
+    {
+      "id": "e4993b10e30b8f5f",
+      "name": "colorama",
+      "url": "https://github.com/tartley/colorama",
+      "description": "Cross-platform colored terminal text.",
+      "category": "CLI Development",
+      "group": "Terminal Rendering"
+    },
+    {
+      "id": "a9659299ba6acabb",
+      "name": "alive-progress",
+      "url": "https://github.com/rsalmei/alive-progress",
+      "description": "A new kind of progress bar, with real-time throughput, ETA and very cool animations.",
+      "category": "CLI Development",
+      "group": "Terminal Rendering"
+    },
+    {
+      "id": "453cb3768f751b37",
+      "name": "textual",
+      "url": "https://github.com/Textualize/textual",
+      "description": "A framework for building interactive user interfaces that run in the terminal and the browser.",
+      "category": "CLI Development",
+      "group": "TUI Frameworks"
+    },
+    {
+      "id": "b01f87e6f122c8c7",
+      "name": "urwid",
+      "url": "https://github.com/urwid/urwid",
+      "description": "A library for creating terminal GUI applications with strong support for widgets, events, rich colors, etc.",
+      "category": "CLI Development",
+      "group": "TUI Frameworks"
+    },
+    {
+      "id": "fe80bcd1335d4e8e",
+      "name": "asciimatics",
+      "url": "https://github.com/peterbrittain/asciimatics",
+      "description": "A package to create full-screen text UIs (from interactive forms to ASCII animations).",
+      "category": "CLI Development",
+      "group": "TUI Frameworks"
+    },
+    {
+      "id": "b34b25f829a582d3",
+      "name": "pgcli",
+      "url": "https://github.com/dbcli/pgcli",
+      "description": "PostgreSQL CLI with autocompletion and syntax highlighting.",
+      "category": "CLI Tools",
+      "group": "Database CLIs"
+    },
+    {
+      "id": "6ea4b19e005b8595",
+      "name": "mycli",
+      "url": "https://github.com/dbcli/mycli",
+      "description": "MySQL CLI with autocompletion and syntax highlighting.",
+      "category": "CLI Tools",
+      "group": "Database CLIs"
+    },
+    {
+      "id": "ac4980d3c4b76e50",
+      "name": "litecli",
+      "url": "https://github.com/dbcli/litecli",
+      "description": "SQLite CLI with autocompletion and syntax highlighting.",
+      "category": "CLI Tools",
+      "group": "Database CLIs"
+    },
+    {
+      "id": "d5c3cb608f72cc86",
+      "name": "iredis",
+      "url": "https://github.com/laixintao/iredis",
+      "description": "Redis CLI with autocompletion and syntax highlighting.",
+      "category": "CLI Tools",
+      "group": "Database CLIs"
+    },
+    {
+      "id": "51028966ae3ba8f6",
+      "name": "yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "description": "A command-line video downloader for YouTube and other sites, a fork of youtube-dl.",
+      "category": "CLI Tools",
+      "group": "Downloaders"
+    },
+    {
+      "id": "e0d796d1b5b003f0",
+      "name": "httpie",
+      "url": "https://github.com/httpie/cli",
+      "description": "A command-line HTTP client, a user-friendly cURL replacement.",
+      "category": "CLI Tools",
+      "group": "HTTP Clients"
+    },
+    {
+      "id": "f292e3bd185cfae4",
+      "name": "cookiecutter",
+      "url": "https://github.com/cookiecutter/cookiecutter",
+      "description": "A command-line utility that creates projects from cookiecutters (project templates).",
+      "category": "CLI Tools",
+      "group": "Project Scaffolding"
+    },
+    {
+      "id": "ebc3890df0691491",
+      "name": "copier",
+      "url": "https://github.com/copier-org/copier",
+      "description": "A library and command-line utility for rendering project templates.",
+      "category": "CLI Tools",
+      "group": "Project Scaffolding"
+    },
+    {
+      "id": "f940e2476d4d7698",
+      "name": "xonsh",
+      "url": "https://github.com/xonsh/xonsh",
+      "description": "A Python-powered shell. Full-featured and cross-platform.",
+      "category": "CLI Tools",
+      "group": "Shells"
+    },
+    {
+      "id": "39875ab8c2458f46",
+      "name": "tmuxp",
+      "url": "https://github.com/tmux-python/tmuxp",
+      "description": "A [tmux](https://github.com/tmux/tmux) session manager.",
+      "category": "CLI Tools",
+      "group": "Terminal Workflow"
+    },
+    {
+      "id": "6470bf6a04cd265d",
+      "name": "PyGObject",
+      "url": "https://github.com/GNOME/pygobject",
+      "description": "Python bindings for GLib/GObject/GIO/GTK.",
+      "category": "GUI Development",
+      "group": "Desktop"
+    },
+    {
+      "id": "4cc72c028f804741",
+      "name": "dearpygui",
+      "url": "https://github.com/hoffstadt/DearPyGui",
+      "description": "A simple GPU-accelerated Python GUI framework.",
+      "category": "GUI Development",
+      "group": "Desktop"
+    },
+    {
+      "id": "c492bb69c235f066",
+      "name": "Kivy",
+      "url": "https://github.com/kivy/kivy",
+      "description": "An open-source cross-platform GUI framework for desktop, mobile, and embedded devices.",
+      "category": "GUI Development",
+      "group": "Desktop"
+    },
+    {
+      "id": "da34a414cc73e9e9",
+      "name": "wxPython",
+      "url": "https://github.com/wxWidgets/Phoenix",
+      "description": "A cross-platform GUI toolkit that wraps the wxWidgets C++ library.",
+      "category": "GUI Development",
+      "group": "Desktop"
+    },
+    {
+      "id": "1659a39f05037809",
+      "name": "toga",
+      "url": "https://github.com/beeware/toga",
+      "description": "A Python-native, OS-native GUI toolkit.",
+      "category": "GUI Development",
+      "group": "Desktop"
+    },
+    {
+      "id": "ecc78ee132aa866c",
+      "name": "PySide6",
+      "url": "https://github.com/pyside/pyside-setup",
+      "description": "Qt for Python offers the official Python bindings for [Qt](https://www.qt.io/), largely API-compatible with PyQt6 but with different licensing.",
+      "category": "GUI Development",
+      "group": "Qt"
+    },
+    {
+      "id": "c5a8347616fa8de3",
+      "name": "PyQt6",
+      "url": "https://www.riverbankcomputing.com/static/Docs/PyQt6/",
+      "description": "Python bindings for the [Qt](https://www.qt.io/) cross-platform application and UI framework.",
+      "category": "GUI Development",
+      "group": "Qt"
+    },
+    {
+      "id": "e265aefb220c27d0",
+      "name": "tkinter",
+      "url": "https://docs.python.org/3/library/tkinter.html",
+      "description": "(Python standard library) The standard Python interface to the Tcl/Tk GUI toolkit.",
+      "category": "GUI Development",
+      "group": "Tkinter"
+    },
+    {
+      "id": "b961372bbecb0aaa",
+      "name": "customtkinter",
+      "url": "https://github.com/tomschimansky/customtkinter",
+      "description": "A modern and customizable Python UI library based on Tkinter.",
+      "category": "GUI Development",
+      "group": "Tkinter"
+    },
+    {
+      "id": "14fb66cf6e675b55",
+      "name": "pywebview",
+      "url": "https://github.com/r0x0r/pywebview",
+      "description": "A lightweight cross-platform native wrapper around a webview component.",
+      "category": "GUI Development",
+      "group": "Web-based"
+    },
+    {
+      "id": "1327eaaf57e13683",
+      "name": "nicegui",
+      "url": "https://github.com/zauberzeug/nicegui",
+      "description": "An easy-to-use, Python-based UI framework, which shows up in your web browser.",
+      "category": "GUI Development",
+      "group": "Web-based"
+    },
+    {
+      "id": "229854c444849de4",
+      "name": "flet",
+      "url": "https://github.com/flet-dev/flet",
+      "description": "Cross-platform GUI framework for building modern apps in pure Python.",
+      "category": "GUI Development",
+      "group": "Web-based"
+    },
+    {
+      "id": "5432780b2b80e7ad",
+      "name": "charset-normalizer",
+      "url": "https://github.com/jawah/charset_normalizer",
+      "description": "Universal character encoding detector, and a dependency of requests.",
+      "category": "Text Processing",
+      "group": "Encoding and Unicode"
+    },
+    {
+      "id": "d1a5c1c68b6c7005",
+      "name": "chardet",
+      "url": "https://github.com/chardet/chardet",
+      "description": "Python character encoding detector.",
+      "category": "Text Processing",
+      "group": "Encoding and Unicode"
+    },
+    {
+      "id": "ccd6116e7d91ca94",
+      "name": "ftfy",
+      "url": "https://github.com/rspeer/python-ftfy",
+      "description": "Makes Unicode text less broken and more consistent automagically.",
+      "category": "Text Processing",
+      "group": "Encoding and Unicode"
+    },
+    {
+      "id": "59c6d9bb39211144",
+      "name": "rapidfuzz",
+      "url": "https://github.com/rapidfuzz/RapidFuzz",
+      "description": "Rapid fuzzy string matching using various string metrics, with a C++ core.",
+      "category": "Text Processing",
+      "group": "Fuzzy Matching"
+    },
+    {
+      "id": "e05f35befad77728",
+      "name": "difflib",
+      "url": "https://docs.python.org/3/library/difflib.html",
+      "description": "(Python standard library) Helpers for computing deltas.",
+      "category": "Text Processing",
+      "group": "General"
+    },
+    {
+      "id": "af0fcd1644152480",
+      "name": "pyfiglet",
+      "url": "https://github.com/pwaller/pyfiglet",
+      "description": "An implementation of figlet written in Python.",
+      "category": "Text Processing",
+      "group": "General"
+    },
+    {
+      "id": "b3e5b3973516dbd9",
+      "name": "babel",
+      "url": "https://github.com/python-babel/babel",
+      "description": "An internationalization library for Python.",
+      "category": "Text Processing",
+      "group": "Internationalization"
+    },
+    {
+      "id": "bea143dbed20365b",
+      "name": "pygments",
+      "url": "https://github.com/pygments/pygments",
+      "description": "A generic syntax highlighter.",
+      "category": "Text Processing",
+      "group": "Parser"
+    },
+    {
+      "id": "68e25c0fd6ff39bd",
+      "name": "pyparsing",
+      "url": "https://github.com/pyparsing/pyparsing",
+      "description": "A Python library for creating PEG parsers.",
+      "category": "Text Processing",
+      "group": "Parser"
+    },
+    {
+      "id": "ef06fb3f86011a45",
+      "name": "sqlparse",
+      "url": "https://github.com/andialbrecht/sqlparse",
+      "description": "A non-validating SQL parser.",
+      "category": "Text Processing",
+      "group": "Parser"
+    },
+    {
+      "id": "0fc9b942d649ddac",
+      "name": "phonenumbers",
+      "url": "https://github.com/daviddrysdale/python-phonenumbers",
+      "description": "Parsing, formatting, storing and validating international phone numbers.",
+      "category": "Text Processing",
+      "group": "Parser"
+    },
+    {
+      "id": "2872fb3575ca2153",
+      "name": "parsy",
+      "url": "https://github.com/python-parsy/parsy",
+      "description": "Easy, generic parser combinator library for creating parsers.",
+      "category": "Text Processing",
+      "group": "Parser"
+    },
+    {
+      "id": "2eea3a3e537a244f",
+      "name": "python-slugify",
+      "url": "https://github.com/un33k/python-slugify",
+      "description": "A Python slugify library that translates unicode to ASCII.",
+      "category": "Text Processing",
+      "group": "Transliteration and Slugs"
+    },
+    {
+      "id": "3bd9bbf1eede541e",
+      "name": "unidecode",
+      "url": "https://github.com/avian2/unidecode",
+      "description": "ASCII transliterations of Unicode text.",
+      "category": "Text Processing",
+      "group": "Transliteration and Slugs"
+    },
+    {
+      "id": "d6bf9f32296de5b6",
+      "name": "shortuuid",
+      "url": "https://github.com/skorokithakis/shortuuid",
+      "description": "A generator library for concise, unambiguous and URL-safe UUIDs.",
+      "category": "Text Processing",
+      "group": "Unique identifiers"
+    },
+    {
+      "id": "c117d1e41fbc5da5",
+      "name": "lxml",
+      "url": "https://github.com/lxml/lxml",
+      "description": "A very fast, easy-to-use and versatile library for handling HTML and XML.",
+      "category": "HTML Manipulation",
+      "group": ""
+    },
+    {
+      "id": "c2996721fd57a246",
+      "name": "beautifulsoup4",
+      "url": "https://www.crummy.com/software/BeautifulSoup/bs4/doc/",
+      "description": "Providing Pythonic idioms for iterating, searching, and modifying HTML or XML.",
+      "category": "HTML Manipulation",
+      "group": ""
+    },
+    {
+      "id": "d421306a01163fd2",
+      "name": "xmltodict",
+      "url": "https://github.com/martinblech/xmltodict",
+      "description": "Makes working with XML feel like working with JSON.",
+      "category": "HTML Manipulation",
+      "group": ""
+    },
+    {
+      "id": "2a95d5bcd3746a7f",
+      "name": "markupsafe",
+      "url": "https://github.com/pallets/markupsafe",
+      "description": "Safely adds untrusted strings to HTML/XML markup.",
+      "category": "HTML Manipulation",
+      "group": ""
+    },
+    {
+      "id": "b690b29cb10d4265",
+      "name": "justhtml",
+      "url": "https://github.com/EmilStenstrom/justhtml",
+      "description": "A pure Python HTML5 parser that sanitizes untrusted HTML by default.",
+      "category": "HTML Manipulation",
+      "group": ""
+    },
+    {
+      "id": "b7e77999e08a9316",
+      "name": "pyelftools",
+      "url": "https://github.com/eliben/pyelftools",
+      "description": "Parsing and analyzing ELF files and DWARF debugging information.",
+      "category": "File Format Processing",
+      "group": "General"
+    },
+    {
+      "id": "af0d114e3208720c",
+      "name": "tablib",
+      "url": "https://github.com/jazzband/tablib",
+      "description": "A module for tabular datasets in XLS, CSV, JSON, YAML.",
+      "category": "File Format Processing",
+      "group": "General"
+    },
+    {
+      "id": "82e1783f4c5e2149",
+      "name": "markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "category": "File Format Processing",
+      "group": "File Conversion"
+    },
+    {
+      "id": "9e1948ba049d1ca4",
+      "name": "pypandoc",
+      "url": "https://github.com/JessicaTegner/pypandoc",
+      "description": "A thin wrapper for pandoc, the universal document converter.",
+      "category": "File Format Processing",
+      "group": "File Conversion"
+    },
+    {
+      "id": "e2ebaf75eacbc1b7",
+      "name": "docling",
+      "url": "https://github.com/docling-project/docling",
+      "description": "Library for converting documents into structured data.",
+      "category": "File Format Processing",
+      "group": "File Conversion"
+    },
+    {
+      "id": "87b75047a0b5dfdb",
+      "name": "openpyxl",
+      "url": "https://openpyxl.readthedocs.io/en/stable/",
+      "description": "A library for reading and writing Excel 2010 xlsx/xlsm/xltx/xltm files.",
+      "category": "File Format Processing",
+      "group": "Excel"
+    },
+    {
+      "id": "4c60313b865299e8",
+      "name": "xlsxwriter",
+      "url": "https://github.com/jmcnamara/XlsxWriter",
+      "description": "A Python module for creating Excel .xlsx files.",
+      "category": "File Format Processing",
+      "group": "Excel"
+    },
+    {
+      "id": "a7b17da140e7b863",
+      "name": "python-docx",
+      "url": "https://github.com/python-openxml/python-docx",
+      "description": "Creates, reads, and updates Microsoft Word (.docx) files.",
+      "category": "File Format Processing",
+      "group": "Word"
+    },
+    {
+      "id": "4bc2d3023fc206ca",
+      "name": "python-pptx",
+      "url": "https://github.com/scanny/python-pptx",
+      "description": "Python library for creating and updating PowerPoint (.pptx) files.",
+      "category": "File Format Processing",
+      "group": "PowerPoint"
+    },
+    {
+      "id": "effcf7970f58f50a",
+      "name": "pypdf",
+      "url": "https://github.com/py-pdf/pypdf",
+      "description": "A library capable of splitting, merging, cropping, and transforming PDF pages.",
+      "category": "File Format Processing",
+      "group": "PDF"
+    },
+    {
+      "id": "f16df9a22ceaeafb",
+      "name": "pymupdf",
+      "url": "https://github.com/pymupdf/PyMuPDF",
+      "description": "A fast MuPDF-based library for extracting, rendering, and editing PDFs and other documents.",
+      "category": "File Format Processing",
+      "group": "PDF"
+    },
+    {
+      "id": "7272280c5df400d4",
+      "name": "reportlab",
+      "url": "https://docs.reportlab.com/",
+      "description": "An open-source library for generating PDFs and graphics.",
+      "category": "File Format Processing",
+      "group": "PDF"
+    },
+    {
+      "id": "1ebf32d75bb53630",
+      "name": "pdfminer.six",
+      "url": "https://github.com/pdfminer/pdfminer.six",
+      "description": "A community-maintained fork of PDFMiner for extracting information from PDF documents.",
+      "category": "File Format Processing",
+      "group": "PDF"
+    },
+    {
+      "id": "5ac8905a7e0a3e3b",
+      "name": "weasyprint",
+      "url": "https://github.com/Kozea/WeasyPrint",
+      "description": "A visual rendering engine for HTML and CSS that can export to PDF.",
+      "category": "File Format Processing",
+      "group": "HTML-to-PDF"
+    },
+    {
+      "id": "867b296bc51dfc73",
+      "name": "markdown-it-py",
+      "url": "https://github.com/executablebooks/markdown-it-py",
+      "description": "Markdown parser with 100% CommonMark support, extensions, and syntax plugins.",
+      "category": "File Format Processing",
+      "group": "Markdown"
+    },
+    {
+      "id": "659aa899c7f4213f",
+      "name": "markdown",
+      "url": "https://github.com/Python-Markdown/markdown",
+      "description": "A Python implementation of John Gruber's Markdown.",
+      "category": "File Format Processing",
+      "group": "Markdown"
+    },
+    {
+      "id": "5953bb4117673e98",
+      "name": "mistune",
+      "url": "https://github.com/lepture/mistune",
+      "description": "A fast yet powerful Python Markdown parser with renderers and plugins.",
+      "category": "File Format Processing",
+      "group": "Markdown"
+    },
+    {
+      "id": "d736417a763f8324",
+      "name": "tomllib",
+      "url": "https://docs.python.org/3/library/tomllib.html",
+      "description": "(Python standard library) Parse TOML files.",
+      "category": "File Format Processing",
+      "group": "Data Formats"
+    },
+    {
+      "id": "b2fb40007842f0de",
+      "name": "pyyaml",
+      "url": "https://github.com/yaml/pyyaml",
+      "description": "A full-featured YAML framework for Python.",
+      "category": "File Format Processing",
+      "group": "Data Formats"
+    },
+    {
+      "id": "95610464ac464a8b",
+      "name": "pathlib",
+      "url": "https://docs.python.org/3/library/pathlib.html",
+      "description": "(Python standard library) A cross-platform, object-oriented path library.",
+      "category": "File Manipulation",
+      "group": "Paths and File Watching"
+    },
+    {
+      "id": "73ac13abbc6dcf83",
+      "name": "watchfiles",
+      "url": "https://github.com/samuelcolvin/watchfiles",
+      "description": "Simple, modern and fast file watching and code reload in Python.",
+      "category": "File Manipulation",
+      "group": "Paths and File Watching"
+    },
+    {
+      "id": "8f6b1915d59f376e",
+      "name": "watchdog",
+      "url": "https://github.com/gorakhargosh/watchdog",
+      "description": "API and shell utilities to monitor file system events.",
+      "category": "File Manipulation",
+      "group": "Paths and File Watching"
+    },
+    {
+      "id": "9566bd4eccee43e1",
+      "name": "mimetypes",
+      "url": "https://docs.python.org/3/library/mimetypes.html",
+      "description": "(Python standard library) Map filenames to MIME types.",
+      "category": "File Manipulation",
+      "group": "File Type Detection"
+    },
+    {
+      "id": "7cfb22d8c7e8d7cc",
+      "name": "python-magic",
+      "url": "https://github.com/ahupp/python-magic",
+      "description": "A Python interface to the libmagic file type identification library.",
+      "category": "File Manipulation",
+      "group": "File Type Detection"
+    },
+    {
+      "id": "8cfa54e48e7612c6",
+      "name": "magika",
+      "url": "https://github.com/google/magika",
+      "description": "Detects file content types with a deep-learning model.",
+      "category": "File Manipulation",
+      "group": "File Type Detection"
+    },
+    {
+      "id": "dbf9858473e36bec",
+      "name": "qrcode",
+      "url": "https://github.com/lincolnloop/python-qrcode",
+      "description": "A pure Python QR Code generator.",
+      "category": "Image Processing",
+      "group": "Barcodes and QR Codes"
+    },
+    {
+      "id": "3cf9fd4881f591b3",
+      "name": "python-barcode",
+      "url": "https://github.com/WhyNotHugo/python-barcode",
+      "description": "Create barcodes in Python with no extra dependencies.",
+      "category": "Image Processing",
+      "group": "Barcodes and QR Codes"
+    },
+    {
+      "id": "4e5e4d017bc1c1f5",
+      "name": "pillow",
+      "url": "https://github.com/python-pillow/Pillow",
+      "description": "Pillow is the friendly [PIL](https://pillow.readthedocs.io/en/stable/about.html) fork.",
+      "category": "Image Processing",
+      "group": "General"
+    },
+    {
+      "id": "13a1fbc5820778ad",
+      "name": "scikit-image",
+      "url": "https://github.com/scikit-image/scikit-image",
+      "description": "A Python library for (scientific) image processing.",
+      "category": "Image Processing",
+      "group": "General"
+    },
+    {
+      "id": "cde64fb6afe8e4b8",
+      "name": "rembg",
+      "url": "https://github.com/danielgatis/rembg",
+      "description": "A tool to remove image backgrounds.",
+      "category": "Image Processing",
+      "group": "General"
+    },
+    {
+      "id": "35aac47ce04d2a31",
+      "name": "wand",
+      "url": "https://github.com/emcconville/wand",
+      "description": "Python bindings for [MagickWand](https://imagemagick.org/magick-wand/), C API for ImageMagick.",
+      "category": "Image Processing",
+      "group": "General"
+    },
+    {
+      "id": "3f3abdfc721ca5e4",
+      "name": "pyvips",
+      "url": "https://github.com/libvips/pyvips",
+      "description": "A binding for libvips, a fast image processing library with low memory needs.",
+      "category": "Image Processing",
+      "group": "General"
+    },
+    {
+      "id": "a6340875c4a2ed31",
+      "name": "thumbor",
+      "url": "https://github.com/thumbor/thumbor",
+      "description": "A smart imaging service. It enables on-demand crop, resizing and flipping of images.",
+      "category": "Image Processing",
+      "group": "Image Serving"
+    },
+    {
+      "id": "44880c6b34d31c42",
+      "name": "soundfile",
+      "url": "https://github.com/bastibe/python-soundfile",
+      "description": "An audio library for reading and writing sound files, based on libsndfile, CFFI, and NumPy.",
+      "category": "Audio & Video Processing",
+      "group": "Audio"
+    },
+    {
+      "id": "545833b9301850dd",
+      "name": "librosa",
+      "url": "https://github.com/librosa/librosa",
+      "description": "Python library for audio and music analysis.",
+      "category": "Audio & Video Processing",
+      "group": "Audio"
+    },
+    {
+      "id": "ef50611b30bd6470",
+      "name": "pydub",
+      "url": "https://github.com/jiaaro/pydub",
+      "description": "Manipulate audio with a simple and easy, high-level interface.",
+      "category": "Audio & Video Processing",
+      "group": "Audio"
+    },
+    {
+      "id": "f1db67bee0f74318",
+      "name": "av",
+      "url": "https://github.com/PyAV-Org/PyAV",
+      "description": "Pythonic bindings for FFmpeg's libraries.",
+      "category": "Audio & Video Processing",
+      "group": "Video"
+    },
+    {
+      "id": "038f696bff656a1a",
+      "name": "moviepy",
+      "url": "https://github.com/Zulko/moviepy",
+      "description": "A module for script-based movie editing with many formats, including animated GIFs.",
+      "category": "Audio & Video Processing",
+      "group": "Video"
+    },
+    {
+      "id": "b7b9f3f4c613aff6",
+      "name": "mutagen",
+      "url": "https://github.com/quodlibet/mutagen",
+      "description": "A Python module to handle audio metadata.",
+      "category": "Audio & Video Processing",
+      "group": "Metadata"
+    },
+    {
+      "id": "e6e0ea7fa53b8b14",
+      "name": "tinytag",
+      "url": "https://github.com/tinytag/tinytag",
+      "description": "A library for reading audio file metadata of MP3, MP4, WAV, OGG, FLAC, WMA, and AIFF files.",
+      "category": "Audio & Video Processing",
+      "group": "Metadata"
+    },
+    {
+      "id": "bd45d0f1f40c5a04",
+      "name": "beets",
+      "url": "https://github.com/beetbox/beets",
+      "description": "A music library manager and [MusicBrainz](https://musicbrainz.org/) tagger.",
+      "category": "Audio & Video Processing",
+      "group": "Metadata"
+    },
+    {
+      "id": "189f110668811585",
+      "name": "panda3d",
+      "url": "https://github.com/panda3d/panda3d",
+      "description": "3D game engine developed jointly by Disney and contributors from around the world.",
+      "category": "Game Development",
+      "group": "3D Engines"
+    },
+    {
+      "id": "77e17b5ee689344c",
+      "name": "pyglet",
+      "url": "https://github.com/pyglet/pyglet",
+      "description": "A cross-platform windowing and multimedia library for Python.",
+      "category": "Game Development",
+      "group": "Game Frameworks"
+    },
+    {
+      "id": "b693636c1cfdfe61",
+      "name": "pygame-ce",
+      "url": "https://github.com/pygame-community/pygame-ce",
+      "description": "An actively developed drop-in replacement with new features and performance improvements ([pygame](https://github.com/pygame/pygame) fork).",
+      "category": "Game Development",
+      "group": "Game Frameworks"
+    },
+    {
+      "id": "da6e4d94b6952ae3",
+      "name": "pygame",
+      "url": "https://github.com/pygame/pygame",
+      "description": "Pygame is a set of Python modules designed for writing games.",
+      "category": "Game Development",
+      "group": "Game Frameworks"
+    },
+    {
+      "id": "4750745c133da2f4",
+      "name": "arcade",
+      "url": "https://github.com/pythonarcade/arcade",
+      "description": "An easy-to-use library for creating 2D arcade games.",
+      "category": "Game Development",
+      "group": "Game Frameworks"
+    },
+    {
+      "id": "2d54cae3682f9cf6",
+      "name": "renpy",
+      "url": "https://github.com/renpy/renpy",
+      "description": "A visual novel engine.",
+      "category": "Game Development",
+      "group": "Visual Novels"
+    },
+    {
+      "id": "91ea08ea74272a69",
+      "name": "cpython",
+      "url": "https://github.com/python/cpython",
+      "description": "Default, most widely used implementation of the Python programming language written in C.",
+      "category": "Implementations",
+      "group": ""
+    },
+    {
+      "id": "7a82a98ed251ba01",
+      "name": "micropython",
+      "url": "https://github.com/micropython/micropython",
+      "description": "A lean and efficient Python implementation for microcontrollers and constrained systems.",
+      "category": "Implementations",
+      "group": ""
+    },
+    {
+      "id": "0f88ec58ac8c2829",
+      "name": "pypy",
+      "url": "https://github.com/pypy/pypy",
+      "description": "A very fast and compliant implementation of the Python language.",
+      "category": "Implementations",
+      "group": ""
+    },
+    {
+      "id": "2fdd8151c0e9f87b",
+      "name": "Cython",
+      "url": "https://github.com/cython/cython",
+      "description": "Optimizing static compiler for Python.",
+      "category": "Implementations",
+      "group": ""
+    },
+    {
+      "id": "e1b4a8c985dc7ae1",
+      "name": "pyodide",
+      "url": "https://github.com/pyodide/pyodide",
+      "description": "Python distribution for the browser and Node.js based on WebAssembly.",
+      "category": "Implementations",
+      "group": ""
+    },
+    {
+      "id": "9fbe8c1e24dba5fb",
+      "name": "attrs",
+      "url": "https://github.com/python-attrs/attrs",
+      "description": "Replacement for `__init__`, `__eq__`, `__repr__`, etc. boilerplate in class definitions.",
+      "category": "Built-in Classes Enhancement",
+      "group": ""
+    },
+    {
+      "id": "fbef3080218ea6ca",
+      "name": "bidict",
+      "url": "https://github.com/jab/bidict",
+      "description": "Efficient, Pythonic bidirectional map data structures and related functionality.",
+      "category": "Built-in Classes Enhancement",
+      "group": ""
+    },
+    {
+      "id": "43f9e2161110fb57",
+      "name": "uuid-utils",
+      "url": "https://github.com/aminalaee/uuid-utils",
+      "description": "A fast, Rust-backed drop-in replacement for Python's built-in `uuid` module.",
+      "category": "Built-in Classes Enhancement",
+      "group": ""
+    },
+    {
+      "id": "369b1931f9620bec",
+      "name": "python-box",
+      "url": "https://github.com/cdgriffith/Box",
+      "description": "Python dictionaries with advanced dot notation access.",
+      "category": "Built-in Classes Enhancement",
+      "group": ""
+    },
+    {
+      "id": "509b14c2ccf4ddb5",
+      "name": "functools",
+      "url": "https://docs.python.org/3/library/functools.html",
+      "description": "(Python standard library) Higher-order functions and operations on callable objects.",
+      "category": "Functional Programming",
+      "group": ""
+    },
+    {
+      "id": "73a018776c15580d",
+      "name": "more-itertools",
+      "url": "https://github.com/more-itertools/more-itertools",
+      "description": "More routines for operating on iterables, beyond `itertools`.",
+      "category": "Functional Programming",
+      "group": ""
+    },
+    {
+      "id": "cb948e18649c8b46",
+      "name": "toolz",
+      "url": "https://github.com/pytoolz/toolz",
+      "description": "A collection of functional utilities for iterators, functions, and dictionaries. Also available as [cytoolz](https://github.com/pytoolz/cytoolz) for Cython-accelerated performance.",
+      "category": "Functional Programming",
+      "group": ""
+    },
+    {
+      "id": "7080af31c7e39f0e",
+      "name": "funcy",
+      "url": "https://github.com/Suor/funcy",
+      "description": "Fancy and practical functional tools.",
+      "category": "Functional Programming",
+      "group": ""
+    },
+    {
+      "id": "0325fd89f419a489",
+      "name": "returns",
+      "url": "https://github.com/dry-python/returns",
+      "description": "A set of type-safe monads, transformers, and composition utilities.",
+      "category": "Functional Programming",
+      "group": ""
+    },
+    {
+      "id": "6b9d4921c8d9f181",
+      "name": "asyncio",
+      "url": "https://docs.python.org/3/library/asyncio.html",
+      "description": "(Python standard library) Asynchronous I/O, event loop, coroutines and tasks.",
+      "category": "Asynchronous Programming",
+      "group": "Async I/O"
+    },
+    {
+      "id": "452a6124b1f048c3",
+      "name": "anyio",
+      "url": "https://github.com/agronholm/anyio",
+      "description": "A high-level async concurrency and networking framework that works on top of asyncio or trio.",
+      "category": "Asynchronous Programming",
+      "group": "Async I/O"
+    },
+    {
+      "id": "6ed984a51f172fd2",
+      "name": "uvloop",
+      "url": "https://github.com/MagicStack/uvloop",
+      "description": "Ultra-fast asyncio event loop.",
+      "category": "Asynchronous Programming",
+      "group": "Async I/O"
+    },
+    {
+      "id": "a058af7106f586d3",
+      "name": "trio",
+      "url": "https://github.com/python-trio/trio",
+      "description": "A friendly library for async concurrency and I/O.",
+      "category": "Asynchronous Programming",
+      "group": "Async I/O"
+    },
+    {
+      "id": "6288319ae3f35fd1",
+      "name": "gevent",
+      "url": "https://github.com/gevent/gevent",
+      "description": "A coroutine-based Python networking library that uses [greenlet](https://github.com/python-greenlet/greenlet).",
+      "category": "Asynchronous Programming",
+      "group": "Async I/O"
+    },
+    {
+      "id": "85cc788c440f1cf5",
+      "name": "Twisted",
+      "url": "https://github.com/twisted/twisted",
+      "description": "An event-driven networking engine.",
+      "category": "Asynchronous Programming",
+      "group": "Async I/O"
+    },
+    {
+      "id": "3e8d4248d978e8db",
+      "name": "concurrent.futures",
+      "url": "https://docs.python.org/3/library/concurrent.futures.html",
+      "description": "(Python standard library) High-level asynchronous execution of callables.",
+      "category": "Asynchronous Programming",
+      "group": "Parallelism"
+    },
+    {
+      "id": "4bd227fe5cdce343",
+      "name": "multiprocessing",
+      "url": "https://docs.python.org/3/library/multiprocessing.html",
+      "description": "(Python standard library) Process-based parallelism.",
+      "category": "Asynchronous Programming",
+      "group": "Parallelism"
+    },
+    {
+      "id": "32e7bc8aae6ed8e5",
+      "name": "zoneinfo",
+      "url": "https://docs.python.org/3/library/zoneinfo.html",
+      "description": "(Python standard library) IANA time zone support. Brings the [tz database](https://en.wikipedia.org/wiki/Tz_database) into Python.",
+      "category": "Date and Time",
+      "group": ""
+    },
+    {
+      "id": "88d21c61f4e5324d",
+      "name": "python-dateutil",
+      "url": "https://github.com/dateutil/dateutil",
+      "description": "Extensions to the standard Python [datetime](https://docs.python.org/3/library/datetime.html) module.",
+      "category": "Date and Time",
+      "group": ""
+    },
+    {
+      "id": "657e84662d0f27d0",
+      "name": "dateparser",
+      "url": "https://github.com/scrapinghub/dateparser",
+      "description": "A Python parser for human-readable dates in over 200 language locales.",
+      "category": "Date and Time",
+      "group": ""
+    },
+    {
+      "id": "0f2e3213fe715482",
+      "name": "pendulum",
+      "url": "https://github.com/python-pendulum/pendulum",
+      "description": "Python datetimes made easy.",
+      "category": "Date and Time",
+      "group": ""
+    },
+    {
+      "id": "ceb65ef3c26b83b1",
+      "name": "whenever",
+      "url": "https://github.com/ariebovenberg/whenever",
+      "description": "A modern datetime library, type-safe and DST-safe, in Rust or pure Python.",
+      "category": "Date and Time",
+      "group": ""
+    },
+    {
+      "id": "7af67ac653500716",
+      "name": "virtualenv",
+      "url": "https://github.com/pypa/virtualenv",
+      "description": "A tool to create isolated Python environments.",
+      "category": "Environment Management",
+      "group": ""
+    },
+    {
+      "id": "7cc1720f454cb619",
+      "name": "uv",
+      "url": "https://github.com/astral-sh/uv",
+      "description": "An extremely fast Python version, package and project manager, written in Rust.",
+      "category": "Environment Management",
+      "group": ""
+    },
+    {
+      "id": "c7ceaf99602288f1",
+      "name": "pyenv",
+      "url": "https://github.com/pyenv/pyenv",
+      "description": "Simple Python version management.",
+      "category": "Environment Management",
+      "group": ""
+    },
+    {
+      "id": "0beb3efe7303525b",
+      "name": "mise",
+      "url": "https://github.com/jdx/mise",
+      "description": "A polyglot tool version manager that installs Python versions and reads .python-version files.",
+      "category": "Environment Management",
+      "group": ""
+    },
+    {
+      "id": "148f814b4b668d19",
+      "name": "pip",
+      "url": "https://github.com/pypa/pip",
+      "description": "The package installer for Python.",
+      "category": "Package Management",
+      "group": "Package Managers"
+    },
+    {
+      "id": "d5d623ee55cdff9b",
+      "name": "uv",
+      "url": "https://github.com/astral-sh/uv",
+      "description": "An extremely fast Python version, package and project manager, written in Rust.",
+      "category": "Package Management",
+      "group": "Package Managers"
+    },
+    {
+      "id": "f525e8251527d2e3",
+      "name": "poetry",
+      "url": "https://github.com/python-poetry/poetry",
+      "description": "Python dependency management and packaging made easy.",
+      "category": "Package Management",
+      "group": "Package Managers"
+    },
+    {
+      "id": "dd75a7c355662304",
+      "name": "hatch",
+      "url": "https://github.com/pypa/hatch",
+      "description": "Modern, extensible Python project manager for environments, builds, and publishing.",
+      "category": "Package Management",
+      "group": "Package Managers"
+    },
+    {
+      "id": "9b50223e25dc0946",
+      "name": "pipx",
+      "url": "https://github.com/pypa/pipx",
+      "description": "Install and run Python applications in isolated environments. Like `npx` in Node.js.",
+      "category": "Package Management",
+      "group": "Package Managers"
+    },
+    {
+      "id": "550e8a51b12b892c",
+      "name": "conda",
+      "url": "https://github.com/conda/conda",
+      "description": "Cross-platform, Python-agnostic binary package manager.",
+      "category": "Package Management",
+      "group": "Package Managers"
+    },
+    {
+      "id": "a611de57fdc4b072",
+      "name": "setuptools",
+      "url": "https://github.com/pypa/setuptools",
+      "description": "The historical and still most widely used pyproject build backend.",
+      "category": "Package Management",
+      "group": "Build Backends"
+    },
+    {
+      "id": "4b8e166a2fd708ef",
+      "name": "hatchling",
+      "url": "https://github.com/pypa/hatch",
+      "description": "Modern, extensible build backend from the hatch project.",
+      "category": "Package Management",
+      "group": "Build Backends"
+    },
+    {
+      "id": "75a35c3dc02a1025",
+      "name": "poetry-core",
+      "url": "https://github.com/python-poetry/poetry-core",
+      "description": "Poetry's PEP 517 build backend, usable without Poetry itself.",
+      "category": "Package Management",
+      "group": "Build Backends"
+    },
+    {
+      "id": "71e2cfa1507ab42f",
+      "name": "flit-core",
+      "url": "https://github.com/pypa/flit",
+      "description": "Minimal, dependency-free build backend for pure-Python packages.",
+      "category": "Package Management",
+      "group": "Build Backends"
+    },
+    {
+      "id": "bfe73e3bf4ee9c4c",
+      "name": "uv-build",
+      "url": "https://github.com/astral-sh/uv",
+      "description": "uv's fast, minimal build backend for pure-Python projects.",
+      "category": "Package Management",
+      "group": "Build Backends"
+    },
+    {
+      "id": "2396dc5607d2033b",
+      "name": "pypiserver",
+      "url": "https://github.com/pypiserver/pypiserver",
+      "description": "A minimal PyPI server for uploading and installing packages with pip.",
+      "category": "Package Repositories",
+      "group": ""
+    },
+    {
+      "id": "72e77434334049aa",
+      "name": "devpi",
+      "url": "https://github.com/devpi/devpi",
+      "description": "PyPI server and packaging/testing/release tool.",
+      "category": "Package Repositories",
+      "group": ""
+    },
+    {
+      "id": "cfa9b246c4436777",
+      "name": "bandersnatch",
+      "url": "https://github.com/pypa/bandersnatch",
+      "description": "PyPI mirroring tool provided by the Python Packaging Authority (PyPA).",
+      "category": "Package Repositories",
+      "group": ""
+    },
+    {
+      "id": "fe3eb85ccffcc179",
+      "name": "pyinstaller",
+      "url": "https://github.com/pyinstaller/pyinstaller",
+      "description": "Converts Python programs into standalone executables (cross-platform).",
+      "category": "Distribution",
+      "group": "Executables"
+    },
+    {
+      "id": "679badd0d259e988",
+      "name": "Nuitka",
+      "url": "https://github.com/Nuitka/Nuitka",
+      "description": "Compiles Python programs into high-performance standalone executables (cross-platform).",
+      "category": "Distribution",
+      "group": "Executables"
+    },
+    {
+      "id": "ffc66c78e943c518",
+      "name": "pex",
+      "url": "https://github.com/pex-tool/pex",
+      "description": "A tool for building self-contained Python executable environments (PEP 441 zipapps).",
+      "category": "Distribution",
+      "group": "Executables"
+    },
+    {
+      "id": "58d47463096ef7c9",
+      "name": "cx-Freeze",
+      "url": "https://github.com/marcelotduarte/cx_Freeze",
+      "description": "Converts Python scripts into standalone executables and installers for Windows, macOS, and Linux.",
+      "category": "Distribution",
+      "group": "Executables"
+    },
+    {
+      "id": "75f87298d2ebc512",
+      "name": "pyarmor",
+      "url": "https://github.com/dashingsoft/pyarmor",
+      "description": "A tool used to obfuscate Python scripts, bind obfuscated scripts to a fixed machine or expire obfuscated scripts.",
+      "category": "Distribution",
+      "group": "Obfuscation"
+    },
+    {
+      "id": "5770e66719ccffe5",
+      "name": "configparser",
+      "url": "https://docs.python.org/3/library/configparser.html",
+      "description": "(Python standard library) INI file parser.",
+      "category": "Configuration Files",
+      "group": ""
+    },
+    {
+      "id": "cf3f6ec7f2f6f05d",
+      "name": "python-dotenv",
+      "url": "https://github.com/theskumar/python-dotenv",
+      "description": "Reads key-value pairs from a `.env` file and sets them as environment variables.",
+      "category": "Configuration Files",
+      "group": ""
+    },
+    {
+      "id": "763834bf3f59169d",
+      "name": "pydantic-settings",
+      "url": "https://github.com/pydantic/pydantic-settings",
+      "description": "Settings management using Pydantic models with validation, loading from environment variables and secrets files.",
+      "category": "Configuration Files",
+      "group": ""
+    },
+    {
+      "id": "18de44e195b97462",
+      "name": "hydra-core",
+      "url": "https://github.com/hydra-ecosystem/hydra",
+      "description": "Hydra is a framework for elegantly configuring complex applications.",
+      "category": "Configuration Files",
+      "group": ""
+    },
+    {
+      "id": "a1828b33f5e73de3",
+      "name": "dynaconf",
+      "url": "https://github.com/dynaconf/dynaconf",
+      "description": "Dynaconf is a configuration manager with plugins for Django and Flask.",
+      "category": "Configuration Files",
+      "group": ""
+    },
+    {
+      "id": "38267712d43eae9b",
+      "name": "cryptography",
+      "url": "https://github.com/pyca/cryptography",
+      "description": "A package designed to expose cryptographic primitives and recipes to Python developers.",
+      "category": "Cryptography",
+      "group": ""
+    },
+    {
+      "id": "98a4fc681033360e",
+      "name": "pynacl",
+      "url": "https://github.com/pyca/pynacl",
+      "description": "Python binding to libsodium, a fork of the Networking and Cryptography (NaCl) library.",
+      "category": "Cryptography",
+      "group": ""
+    },
+    {
+      "id": "2f364e2826fcaa52",
+      "name": "paramiko",
+      "url": "https://github.com/paramiko/paramiko",
+      "description": "The leading native Python SSHv2 protocol library.",
+      "category": "Cryptography",
+      "group": ""
+    },
+    {
+      "id": "01c951c9a25cb132",
+      "name": "itsdangerous",
+      "url": "https://github.com/pallets/itsdangerous",
+      "description": "Safely pass trusted data to untrusted environments and back.",
+      "category": "Cryptography",
+      "group": ""
+    },
+    {
+      "id": "8a514ad94ae62e59",
+      "name": "mitmproxy",
+      "url": "https://github.com/mitmproxy/mitmproxy",
+      "description": "An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.",
+      "category": "Penetration Testing",
+      "group": ""
+    },
+    {
+      "id": "5069cfd25450d460",
+      "name": "impacket",
+      "url": "https://github.com/fortra/impacket",
+      "description": "A collection of Python classes for working with network protocols, widely used for Windows and Active Directory testing.",
+      "category": "Penetration Testing",
+      "group": ""
+    },
+    {
+      "id": "2f4bad83b4083c62",
+      "name": "sqlmap",
+      "url": "https://github.com/sqlmapproject/sqlmap",
+      "description": "Automatic SQL injection and database takeover tool.",
+      "category": "Penetration Testing",
+      "group": ""
+    },
+    {
+      "id": "cc53312f2def02fa",
+      "name": "pwntools",
+      "url": "https://github.com/Gallopsled/pwntools",
+      "description": "A CTF framework and exploit development library.",
+      "category": "Penetration Testing",
+      "group": ""
+    },
+    {
+      "id": "ff3364ae55094457",
+      "name": "sherlock-project",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks.",
+      "category": "Penetration Testing",
+      "group": ""
+    },
+    {
+      "id": "fa5259e4b57f725c",
+      "name": "pip-audit",
+      "url": "https://github.com/pypa/pip-audit",
+      "description": "Audits Python environments and dependency trees for known vulnerabilities, using the Python Packaging Advisory Database or OSV.",
+      "category": "Supply Chain Security",
+      "group": "Dependency Audits"
+    },
+    {
+      "id": "cedf5e791505b3d1",
+      "name": "uv-audit",
+      "url": "https://github.com/astral-sh/uv",
+      "description": "(part of uv) uv's [dependency vulnerability scanning](https://docs.astral.sh/uv/reference/cli/#uv-audit) backed by OSV.",
+      "category": "Supply Chain Security",
+      "group": "Dependency Audits"
+    },
+    {
+      "id": "6356852dc35dee76",
+      "name": "betterleaks",
+      "url": "https://github.com/betterleaks/betterleaks",
+      "description": "Finds leaked secrets in git history, directories, and files, from the original author of gitleaks.",
+      "category": "Supply Chain Security",
+      "group": "Secret Scanning"
+    },
+    {
+      "id": "ded68c2df94198e0",
+      "name": "nh3",
+      "url": "https://github.com/messense/nh3",
+      "description": "Python binding to the ammonia HTML sanitizer, a fast replacement for bleach.",
+      "category": "Web Security",
+      "group": ""
+    },
+    {
+      "id": "62281fd9ef1b8ecf",
+      "name": "secure",
+      "url": "https://github.com/TypeError/secure",
+      "description": "HTTP security headers for Python web applications with ASGI and WSGI middleware.",
+      "category": "Web Security",
+      "group": ""
+    },
+    {
+      "id": "0fc1ed4f5c67e627",
+      "name": "pyserial",
+      "url": "https://github.com/pyserial/pyserial",
+      "description": "Python serial port access library for Windows, macOS, Linux, and BSD.",
+      "category": "Hardware",
+      "group": ""
+    },
+    {
+      "id": "880953c5d515d806",
+      "name": "pynput",
+      "url": "https://github.com/moses-palmer/pynput",
+      "description": "A library to control and monitor input devices.",
+      "category": "Hardware",
+      "group": ""
+    },
+    {
+      "id": "fa661a4ef5d521c7",
+      "name": "bleak",
+      "url": "https://github.com/hbldh/bleak",
+      "description": "A cross-platform Bluetooth Low Energy client for Python using asyncio.",
+      "category": "Hardware",
+      "group": ""
+    },
+    {
+      "id": "ba2e45abe1b04f2e",
+      "name": "jumpstarter",
+      "url": "https://github.com/jumpstarter-dev/jumpstarter",
+      "description": "A hardware-in-the-loop testing framework with a Python client library for automated testing on real and virtual hardware.",
+      "category": "Hardware",
+      "group": ""
+    },
+    {
+      "id": "ef851b34edfefbe3",
+      "name": "pywin32",
+      "url": "https://github.com/mhammond/pywin32",
+      "description": "Python extensions for Windows.",
+      "category": "Microsoft Windows",
+      "group": ""
+    },
+    {
+      "id": "8032cba108bb618e",
+      "name": "pythonnet",
+      "url": "https://github.com/pythonnet/pythonnet",
+      "description": "Python integration with the .NET Common Language Runtime (CLR).",
+      "category": "Microsoft Windows",
+      "group": ""
+    },
+    {
+      "id": "5c229bc86c1937aa",
+      "name": "pyenv-win",
+      "url": "https://github.com/pyenv-win/pyenv-win",
+      "description": "A Python version manager for Windows ([rbenv-win](https://github.com/nak1114/rbenv-win) fork).",
+      "category": "Microsoft Windows",
+      "group": ""
+    },
+    {
+      "id": "ed69406e603029e9",
+      "name": "winpython",
+      "url": "https://github.com/winpython/winpython",
+      "description": "Portable Python distribution for Windows.",
+      "category": "Microsoft Windows",
+      "group": ""
+    },
+    {
+      "id": "97e123a737f0e9d9",
+      "name": "blinker",
+      "url": "https://github.com/pallets-eco/blinker",
+      "description": "A fast Python in-process signal/event dispatching system.",
+      "category": "Miscellaneous",
+      "group": ""
+    },
+    {
+      "id": "e6d21ad75160f969",
+      "name": "boltons",
+      "url": "https://github.com/mahmoud/boltons",
+      "description": "A set of pure-Python utilities.",
+      "category": "Miscellaneous",
+      "group": ""
+    }
+  ]
+}
