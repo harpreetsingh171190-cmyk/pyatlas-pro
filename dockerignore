@@ -1,0 +1,7 @@
+.git
+node_modules
+__pycache__
+*.egg-info
+wheelhouse
+release-dist
+site-docs
